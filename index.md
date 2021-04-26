@@ -1,9 +1,9 @@
 ## Welcome to Bitcoin Page
 
 Group Members:
-* Ankit Bhattarai
-* Ruggles Bohannon 
-* Yorng Chhieng Chheng
-* Doris Yu 
+* [Ankit Bhattarai](Ankit)
+* [Ruggles Bohannon](Ruggles) 
+* [Yorng Chhieng Chheng](Yorng)
+* [Doris Yu](Doris) 
 
 
