@@ -2,7 +2,7 @@
 
 This is my bitcoin page.
 
-{% include_Visualizations/ankit.html %}
+{% include_Visualizations/bitcoin.html %}
 
 
 
