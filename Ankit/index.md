@@ -2,7 +2,7 @@
 
 This is my bitcoin page.
 
-{% include_Visualizations/bitcoin.html %}
+{% include_relative Visualizations/bitcoin.html %}
 
 
 
