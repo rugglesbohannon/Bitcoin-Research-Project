@@ -1,10 +1,12 @@
+
 ## Welcome to Ruggles's Page
 
-Test from desktop!
+Focus:
+What has caused some companies to adopt or reject Bitcoin as payment at their private business? Why did they make their decision when they did? 
 
-Looking at when and which companies accept Bitcoin as payment.
-
-![newplot (2)](https://user-images.githubusercontent.com/82183767/116019832-f6252000-a5f9-11eb-8489-28ad86f95267.png)
+How does Bitcoin adjust for inflation? How will the addition of more Bitcoin (as it is mined more frequently) change the price of one Bitcoin? 
 
 
+
+![Screenshot 2021-04-29 143337](https://user-images.githubusercontent.com/82183767/116621417-fa05ba80-a8f7-11eb-8e64-d1068f3fd0bf.png)
 
