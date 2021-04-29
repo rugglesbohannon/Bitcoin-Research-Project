@@ -2,11 +2,15 @@
 ### Welcome to Ruggles's Page
 
 **Questions:**
-What has caused some companies to adopt or reject Bitcoin as payment at their private business? Why did they make their decision when they did? 
-How does Bitcoin adjust for inflation? How will the addition of more Bitcoin (as it is mined more frequently) change the price of one Bitcoin? 
+
+1. What has caused some companies to adopt or reject Bitcoin as payment at their private business? 
+2. Why did they make their decision when they did? 
+3. How does Bitcoin adjust for inflation?
+4. How will the addition of more Bitcoin (as it is mined more frequently) change the price of one Bitcoin? 
 
 **Data Sorces:**
-Yahoo
+
+- Yahoo
 
 **Visualizations:**
 
