@@ -25,11 +25,11 @@ what coins to hold in the portfolio.
 
 **Issues encountered with dataset and Analyzation**
 
-*The bitcoin and ethereum data both misses the value of Saturday and Sunday maybe because the stock market is closed during that day but I know that people do 
+* The bitcoin and ethereum data both misses the value of Saturday and Sunday maybe because the stock market is closed during that day but I know that people do 
 trade cryptocurrency when the market is closed too and apps like Coin base, Robinhood shows the data of these cryptocurrency during the weekend.
-*While merging the dataset of bitcoin and ethereum, because they have the same column names, one of them gets the x_value and the other gets the y_value. Is there a better way to give names of certain coins instead of x and y values. 
+* While merging the dataset of bitcoin and ethereum, because they have the same column names, one of them gets the x_value and the other gets the y_value. Is there a better way to give names of certain coins instead of x and y values. 
 I have tried giving column names after merging.
-*I am having a really hard time to come up with cryptocurrency that has negative correlation with bitcoin. Once I come up with that I need to import the dataset of
+* I am having a really hard time to come up with cryptocurrency that has negative correlation with bitcoin. Once I come up with that I need to import the dataset of
 that currency to find the correlation matrix and analyze it in detail to manage our portfolio. 
 
 *Below you can see plotly graph object visualization where different bearish and bullish movement caused bitcoin price to rise to its current level. Feel free to make use of slider to see the dates that you are interested.*
