@@ -46,6 +46,13 @@ a reminder that our portfolio should be diverse and not just include cryptos tha
 {% include_relative Visualizations/box.html %}
 
 
+To clearly see the positive correlation between bitcoin and ethereum price, I made bivariate scatter plot.This hints on how our portfolio should look: 
+it's sure that we don't want our crypto portfolio to contain only bitcoin and ethereum.
+
+{% include_relative Visualizations/ethereum.html %}
+
+
+
 
 
 
