@@ -29,12 +29,22 @@ what coins to hold in the portfolio.
 trade cryptocurrency when the market is closed too and apps like Coin base, Robinhood shows the data of these cryptocurrency during the weekend.
 * While merging the dataset of bitcoin and ethereum, because they have the same column names, one of them gets the x_value and the other gets the y_value. Is there a better way to give names of certain coins instead of x and y values. 
 I have tried giving column names after merging.
-* I am having a really hard time to come up with cryptocurrency that has negative correlation with bitcoin. Once I come up with that I need to import the dataset of
-that currency to find the correlation matrix and analyze it in detail to manage our portfolio. 
+* I am having a really hard time coming up with cryptocurrency that has negative correlation with bitcoin and got higher market cap. Once I come up with that I need 
+to import the dataset of that currency to find the correlation of that with bitcoin and analyze it in detail to manage our portfolio. 
 
 *Below you can see plotly graph object visualization where different bearish and bullish movement caused bitcoin price to rise to its current level. Feel free to make use of slider to see the dates that you are interested.*
 
 {% include_relative Visualizations/bitcoin.html %}
+
+**Different univariate and bivariate plots**
+
+I have chose univariate plot to visualize both ethereum and bitcoin price. Both the prices have fluctuated a lot in a span of a year. These fluctuations are again
+a reminder that our portfolio should be diverse and not just include cryptos that has got strong positive correlation.
+
+{% include_relative Visualizations/boxplot.html %}
+
+{% include_relative Visualizations/box.html %}
+
 
 
 
