@@ -11,6 +11,7 @@
 **Data Sorces:**
 
 - [Yahoo Finance](https://finance.yahoo.com/quote/BTC-USD/history/?guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAE1iTQEM3gqle4ifIZ0FxmNSrO2jLU8jHDLYEnM4DGZk4dCEd-VhKRedEtXl6B3t2wj_eoseVG3MVLDWtXR5JAlz3aI6aQAheKcsaQTuFuWYKJvZPD2RdG3mC41_VtyVCE2slSvx_iqysSqDrh8KBvPb6GpvOmdGVTfFMCBkWE0E&guccounter=2)
+- [MarketWatch](https://www.marketwatch.com/story/bitcoin-price-hits-new-record-clears-60-000-milestone-11615648314)
 
 This data has missing values on 2020-10-09, 2020-10-12, and 2020-10-13. 
 My research does not suggest that the market was under any unusual distress during these dates. These missing values were reported months after the market crash in March of 2020. Reports from the [Yahoo Finance](https://finance.yahoo.com/news/stock-market-news-oct-9-134301485.html) and [The New York Times](https://www.nytimes.com/issue/todaysheadlines/2020/10/09/todays-headlines) corroborate that there was no unusual market activity that would have caused missing data.
@@ -26,7 +27,7 @@ Market Watch Major Milestones
 
 **Coming Soon**
 
-Data visualizations into how news, adoption, and rejection of Bitcoin affected its market price. 
+Data visualizations looking into how news, adoption, and rejection of Bitcoin affected its market price. 
 
 Data visualizations on how the addition of more bitcoin affected its market price.
  
