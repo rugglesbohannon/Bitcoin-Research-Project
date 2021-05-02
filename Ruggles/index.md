@@ -37,6 +37,7 @@ Data visualizations on how the addition of more bitcoin affected its market pric
 Opening Price of Bitcoin from May 2020 - April 2021
 ![Screenshot 2021-04-29 143337](https://user-images.githubusercontent.com/82183767/116621417-fa05ba80-a8f7-11eb-8e64-d1068f3fd0bf.png)
 
-Volume of Bitcoin from May 2020 - April 2021
-![newplot (5)](https://user-images.githubusercontent.com/82183767/116827016-d3d85880-ab4b-11eb-9568-e45676f47274.png)
+Volume of Bitcoin from May 2020 - April 2021 (Outlier - Feb 26th, 2021 Volume = 350.9679 B)
+![newplot (6)](https://user-images.githubusercontent.com/82183767/116827119-4f3a0a00-ab4c-11eb-980b-5d15216121cf.png)
+
 
