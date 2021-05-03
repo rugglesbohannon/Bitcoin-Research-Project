@@ -7,7 +7,9 @@ According to [Forbes](https://www.forbes.com/advisor/investing/what-is-bitcoin/)
 
 **Project Idea**
 
-Here is the closing price of Bitcoin over the time.
-{% include_relative Visualizations/ww-bitcoin.html%}
+Many places are starting to accept bitcoins as payment methods and this truly helped build the faith in bitcoin and allowed miners to be able to spend their coins and not letting their mining effort go to waste. Bitcoin apparantly takes a lot of computing power and electricity to mine. As more places and companies are accepting bitcoin, the world is slowly but surely shifting into a more crypto world. 
+
+My data is from [here](datadescription.md)
+{% include_relative Visualizations/ww-bitcoinmapping.html%}
 
 
