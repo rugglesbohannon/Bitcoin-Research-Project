@@ -2,6 +2,8 @@
 
 ![](images/bitcoin.jpg)
 
+[Investment Portfolio](investment.md)
+
 **Focus of this page**
 
 Bitcoin is a cryptocurrency that got the popularity in recent years due to much price increase. The value of bitcoin has increased by **685%** in a span of year. It was $7000 a year ago and now its value is $55,000.
@@ -16,6 +18,7 @@ when analyzing the price and quantity of bitcoin sold.
 *Below you can see plotly graph object visualization where different bearish and bullish movement caused bitcoin price to rise to its current level. Feel free to make use of slider to see the dates that you are interested.*
 
 {% include_relative Visualizations/bitcoin.html %}
+
 
 
 
