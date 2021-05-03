@@ -2,10 +2,14 @@
 
 ![](images/bitcoin.jpg)
 
-[Investment Portfolio](investment.md)
 
 - [x] Want to know more about investment portfolio? [Click here](investment.md)
 
+**Questions**
+1. Is it safe to invest only in Bitcoin?
+2. How can we maintain investment portfolio of Cryptocurrency to minimize our risk and earn smart profit?
+3. Will dogecoin land on the moon(:rocket:rocket) and how will bitcoin help dogecoin? 
+4. Which cryptos have positive correlation with bitcoin and which cryptos are unrelated to dogecoin?
 
 **Focus of this page**
 
