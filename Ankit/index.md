@@ -4,7 +4,7 @@
 
 [Investment Portfolio](investment.md)
 
- [x] Want to know more about investment portfolio? [Click here](investment.md)
+- [x] Want to know more about investment portfolio? [Click here](investment.md)
 
 
 **Focus of this page**
