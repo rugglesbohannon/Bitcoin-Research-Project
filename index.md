@@ -13,6 +13,9 @@ What is Bitcoin? How is it differnt from other forms of currency? Why and how ha
 **Project Idea**: Diversification of Cryptocurrencies in Investment Portfolio
 
 * [Ruggles Bohannon](Ruggles) 
+
+**Project Idea**:How news, adoption, and rejection of Bitcoin affected its market price.
+
 * [Yorng Chhieng Chheng](Yorng)
 * [Doris Yu](Doris) 
 
