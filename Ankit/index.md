@@ -46,7 +46,7 @@ to import the dataset of that currency to find the correlation of that with bitc
 
 **Different univariate and bivariate plots**
 
-I have chose univariate plot to visualize both ethereum and bitcoin price. Both the prices have fluctuated a lot in a span of a year. These fluctuations are again
+I have chosen univariate plot to visualize both ethereum and bitcoin price. Both the prices have fluctuated a lot in a span of a year. These fluctuations are again
 a reminder that our portfolio should be diverse and not just include cryptos that has got strong positive correlation.
 
 {% include_relative Visualizations/boxplot.html %}
