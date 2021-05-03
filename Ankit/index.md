@@ -4,6 +4,9 @@
 
 [Investment Portfolio](investment.md)
 
+- [] Know about investment portfolio. Ready to move forward!! Ignore the link below.
+- [] Don't know what investment portolio?? [Help](investment.md)
+
 **Focus of this page**
 
 Bitcoin is a cryptocurrency that got the popularity in recent years due to much price increase. The value of bitcoin has increased by **685%** in a span of year. It was $7000 a year ago and now its value is $55,000.
