@@ -59,6 +59,12 @@ it's sure that we don't want our crypto portfolio to contain only bitcoin and et
 
 {% include_relative Visualizations/ethereum.html %}
 
+**Coming Soon**
+
+I am finding datasets of other cryptos that have moderate relation with the price of Bitcoin. After finding the correlation matrix of all those cryptos with that of 
+Bitcoin, I can explain what coins to hold in our portfolio. The visualization might include correlation heatmap which is very important in the field of finance and 
+investment.
+
 
 
 
