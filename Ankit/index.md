@@ -27,7 +27,7 @@ be analyzing the correlation matrix of different types of crypto currencies with
 **Data Description**
 
 The dataset I am working will be from Yahoo finance and you can access it from here: [Bitcoin data](https://finance.yahoo.com/quote/BTC-USD/history/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAE1iTQEM3gqle4ifIZ0FxmNSrO2jLU8jHDLYEnM4DGZk4dCEd-VhKRedEtXl6B3t2wj_eoseVG3MVLDWtXR5JAlz3aI6aQAheKcsaQTuFuWYKJvZPD2RdG3mC41_VtyVCE2slSvx_iqysSqDrh8KBvPb6GpvOmdGVTfFMCBkWE0E)
-It has different columns of data like high, low, open and close price. It has also got the volumes of Bitcoin sold in the market which can be of particular importance
+,[Ethereum data](https://finance.yahoo.com/quote/ETH-USD/history/).These datasets have different columns of data like high, low, open and close price. They have also got the volumes of Bitcoin and Ethereum sold in the market which can be of particular importance
 when analyzing the price and quantity of bitcoin sold. I am planning to merge bitcoin dataset with dataset of other cryptos to make a correlation matrix and then decide
 what coins to hold in the portfolio.
 
