@@ -4,8 +4,8 @@
 
 [Investment Portfolio](investment.md)
 
-- [] Know about investment portfolio. Ready to move forward!! Ignore the link below.
-- [] Don't know what investment portolio?? [Help](investment.md)
+- [ ] Know about investment portfolio. Ready to move forward!! Ignore the link below.
+- [ ] Don't know what investment portolio?? [Help](investment.md)
 
 **Focus of this page**
 
