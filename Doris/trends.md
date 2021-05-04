@@ -1,7 +1,7 @@
 ## Bitcoin Trends Visualization
 
 
-*The Visualization of Bitcoin Trends and [Google Search Trends](https://trends.google.com/trends/explore?q=bitcoin&geo=US)of 'Bitcoin'*
+*The Visualization of Bitcoin Trends and [Google Search Trends](https://trends.google.com/trends/explore?q=bitcoin&geo=US) of 'Bitcoin'*
 {% include_relative Visualization/BTC_Google.html %}
 
 ****

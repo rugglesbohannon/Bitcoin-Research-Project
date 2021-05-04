@@ -14,7 +14,8 @@ All the data are from [Yahoo Finance](https://finance.yahoo.com/), it contains t
 
 **Bitcoin Price Trends**
 
-*The Visualization of all available Bitcoin historical price in USD from Sep 15 2014 until Today* 
+
+The Visualization of all available Bitcoin historical price in USD from Sep 15 2014 until Today* 
 {% include_relative Visualization/BTC_USD.html %}
 
 ****
@@ -31,4 +32,5 @@ All the data are from [Yahoo Finance](https://finance.yahoo.com/), it contains t
 Here is the [Trends Visualization](trends.md).
 
 **Bitcoin Price Prediction** 
+
 This part will predict the trends of bitcoin price based on other currency and stocks trends. Base on [stock-to flow model](https://medium.com/@100trillionUSD/modeling-bitcoins-value-with-scarcity-91fa0fc03e25)
