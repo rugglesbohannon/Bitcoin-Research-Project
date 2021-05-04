@@ -15,13 +15,9 @@ their own webpage. But the common dataset that we all are using is described bel
 
 **Group Members:**
 
-* [Ankit Bhattarai](Ankit)
-  
-**Project Idea**: Diversification of Cryptocurrencies in Investment Portfolio
+* [Ankit Bhattarai](Ankit)    **Project Idea**: Diversification of Cryptocurrencies in Investment Portfolio
 
-* [Ruggles Bohannon](Ruggles) 
-
-**Project Idea**:How news, adoption, and rejection of Bitcoin affected its market price.
+* [Ruggles Bohannon](Ruggles) **Project Idea**:How news, adoption, and rejection of Bitcoin affected its market price.
 
 * [Yorng Chhieng Chheng](Yorng)
 * [Doris Yu](Doris) 
