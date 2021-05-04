@@ -16,4 +16,11 @@ The article about [Bitcoin price](https://www.thebalance.com/who-sets-bitcoin-s-
 {% include_relative Visualization/BTC_Google.html %}
 *The Visualization of Bitcoin Trends and Google Search Trends of 'Bitcoin'*
 
+{% include_relative Visualization/Bitcoin_Stocks_Trends.html %}
+
+{% include_relative Visualization/Bitcoin_Currency_Matrix.html %}
+
+{% include_relative Visualization/Bitcoin_Stock_Matrix.html %}
+
+
 **Bitcoin Price Prediction**
