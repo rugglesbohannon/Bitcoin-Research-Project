@@ -13,21 +13,22 @@ The article about [Bitcoin price](https://www.thebalance.com/who-sets-bitcoin-s-
 All the data are from [Yahoo Finance](https://finance.yahoo.com/), it contains the Open, Close, High and Low price of bitcoin price, stocks price, and currency price. 
 
 **Bitcoin Price Trends**
+
 *The Visualization of all available Bitcoin historical price in USD from Sep 15 2014 until Today* 
 {% include_relative Visualization/BTC_USD.html %}
 
 ****
 
-***Bitcoin Correlation with Other Stocks and Currency**
+**Bitcoin Correlation with Other Stocks and Currency**
 
-{% include_relative Visualization/Bitcoin_Currency_Matrix.html %}
+{% include_relative Visualization/Bitcoin_Currency_Matrix.html %} 
 
 *The correlation matrix between [EUR](https://finance.yahoo.com/quote/EURUSD=X?p=EURUSD=X&.tsrc=fin-srch), [CNY](https://finance.yahoo.com/quote/CNY=X?p=CNY=X&.tsrc=fin-srch), [gold](https://finance.yahoo.com/quote/GOLD?p=GOLD&.tsrc=fin-srch), [silver](https://finance.yahoo.com/quote/SI=F?p=SI=F&.tsrc=fin-srch), [palladium](https://finance.yahoo.com/quote/PA=F?p=PA=F&.tsrc=fin-srch), and [platinum](https://finance.yahoo.com/quote/PL=F?p=PL=F&.tsrc=fin-srch) prices in last five years*
 
 {% include_relative Visualization/Bitcoin_Stock_Matrix.html %}
-*The correlation matrix between Nasdaq stock market and stock prices of [company](https://www.insidermonkey.com/blog/5-biggest-companies-that-accept-bitcoin-915752/3/) that accepted bitcoin as payment method: BMW, Tesla, Microsoft, and AT&T*
+*The correlation matrix between Nasdaq stock market and stock prices of [companies](https://www.insidermonkey.com/blog/5-biggest-companies-that-accept-bitcoin-915752/3/) that accepted bitcoin as payment method: [BMW](https://finance.yahoo.com/quote/BMW.DE/history?p=BMW.DE), [Tesla](https://finance.yahoo.com/quote/TSLA?p=TSLA&.tsrc=fin-srch), [Microsoft](https://finance.yahoo.com/quote/MSFT?p=MSFT&.tsrc=fin-srch), and [AT&T](https://finance.yahoo.com/quote/T?p=T&.tsrc=fin-srch).*
 
-Here is the [Trends Visualization](trends.md)
+Here is the [Trends Visualization](trends.md).
 
-**Bitcoin Price Prediction**
+**Bitcoin Price Prediction** 
 This part will predict the trends of bitcoin price based on other currency and stocks trends. Base on [stock-to flow model](https://medium.com/@100trillionUSD/modeling-bitcoins-value-with-scarcity-91fa0fc03e25)
