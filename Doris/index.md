@@ -9,20 +9,20 @@ Bitcoin is a cryptocurrency developed in 2009 by Satoshi Nakamoto. Unlike invest
 The article about [Bitcoin price](https://www.thebalance.com/who-sets-bitcoin-s-price-391278).
 
 **Bitcoin Price Trends Analysis and Visualization**
-
+Here is the overall 
 {% include_relative Visualization/BTC_USD.html %}
 *The Visualization of Bitcoin price in USD from May 2020 until Today* 
 
-{% include_relative Visualization/BTC_Google.html %}
-*The Visualization of Bitcoin Trends and Google Search Trends of 'Bitcoin'*
 
 ***Bitcoin Correlation with Other Stocks and Currency**
 
-{% include_relative Visualization/Bitcoin_Stocks_Trends.html %}
-
 {% include_relative Visualization/Bitcoin_Currency_Matrix.html %}
+*The correlation matrix between EUR, CNY, and other metal price*
 
 {% include_relative Visualization/Bitcoin_Stock_Matrix.html %}
+*The correlation matrix between *
 
+Here is the [Trends Visualization](trends.md)
 
 **Bitcoin Price Prediction**
+This part will predict the trends of bitcoin price based on other currency and stocks trends

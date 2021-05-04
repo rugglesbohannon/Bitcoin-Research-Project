@@ -1,0 +1,15 @@
+## Bitcoin Trends Visualization
+
+
+
+{% include_relative Visualization/BTC_Google.html %}
+*The Visualization of Bitcoin Trends and Google Search Trends of 'Bitcoin'*
+
+
+
+{% include_relative Visualization/Bitcoin_Stocks_Trends.html %}
+*The Visualization of Bitcoin Trends and stock price of other that accept bitcoin as payment*
+
+
+
+
