@@ -12,6 +12,7 @@ their own webpage. But the common dataset that we all are using is described bel
 
 * [Yahoo Finance](https://finance.yahoo.com/quote/BTC-USD/history/?guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAE1iTQEM3gqle4ifIZ0FxmNSrO2jLU8jHDLYEnM4DGZk4dCEd-VhKRedEtXl6B3t2wj_eoseVG3MVLDWtXR5JAlz3aI6aQAheKcsaQTuFuWYKJvZPD2RdG3mC41_VtyVCE2slSvx_iqysSqDrh8KBvPb6GpvOmdGVTfFMCBkWE0E&guccounter=2)
   This dataset contains the Open, Close, High and Low price of bitcoin. Additionally, it also contains the volume of bitcoin bought and sold in the market.
+*[Data](https://coinmap.org/)
 
 **Group Members:**
 
