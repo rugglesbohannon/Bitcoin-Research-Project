@@ -30,4 +30,4 @@ All the data are from [Yahoo Finance](https://finance.yahoo.com/), it contains t
 Here is the [Trends Visualization](trends.md)
 
 **Bitcoin Price Prediction**
-This part will predict the trends of bitcoin price based on other currency and stocks trends
+This part will predict the trends of bitcoin price based on other currency and stocks trends. Base on [stock-to flow model](https://medium.com/@100trillionUSD/modeling-bitcoins-value-with-scarcity-91fa0fc03e25)
