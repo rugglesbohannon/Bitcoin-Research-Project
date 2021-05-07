@@ -1,6 +1,5 @@
 # Welcome to Bitcoin Page
 
-![](bitcoin1.jpg)
 
 **Research Questions**
 
