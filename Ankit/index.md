@@ -7,6 +7,7 @@
 2. How can we maintain investment portfolio of Cryptocurrency to minimize our risk and earn smart profit?
 3. Will dogecoin land on the moon and how will bitcoin help dogecoin? 
 4. Which cryptos have positive correlation with bitcoin and which cryptos are unrelated to dogecoin?
+---
 
 **Focus of this page**
 
@@ -23,6 +24,8 @@ in Investment Portfolio.** This means I will be analyzing what other cyptocurren
 be analyzing the correlation matrix of different types of crypto currencies with bitcoin.
 
 - [x] Want to know more about investment portfolio? [Click here](investment.md)
+
+---
 
 **Data Description**
 
