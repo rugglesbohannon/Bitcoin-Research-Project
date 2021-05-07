@@ -1,12 +1,13 @@
 # Welcome to Bitcoin Page
 
+![](bitcoin1.jpg)
+
 **Research Questions**
 
 What is Bitcoin? How is it different from other forms of currency? Why and how has it become so popular? How does a decentralized transparent ledger affect how the currency moves?
 Is it safe to hold Bitcoin as 100% of your portfolio diversity or should you hold diverse cryptocurrencies?
 
 ---
-
 
 **Description of dataset**
 
