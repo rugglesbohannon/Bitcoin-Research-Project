@@ -65,7 +65,9 @@ I am finding datasets of other cryptos that have moderate relation with the pric
 Bitcoin, I can explain what coins to hold in our portfolio. The visualization might include correlation heatmap which is very important in the field of finance and 
 investment.
 
-
+Cryptos   |High_BTC | High_ETH | High_NEO | High_USDC
+----------|---------|----------|----------|----------
+High_BTC  | 1.00    | 0.98     |  0.82    | -0.42 
 
 
 
