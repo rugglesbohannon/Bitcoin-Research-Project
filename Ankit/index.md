@@ -5,8 +5,6 @@
 
 ### Focus of this page
 
-**Founding father of Cryptocurrency: Bitcoin**
-
 Bitcoin is a cryptocurrency that got the popularity in recent years due to much price increase. The value of bitcoin has increased by **685%** in a span of year.
 Bitcoin is the largest cryptocurrency based on the market cap and makes over 50% of the entire cryptocurrency world. It would be fair to say that the entire 
 cryptocurrency market is highly correlated to Bitcoin’s price movements. And we know that price movement of bitcoin is very volatile, visually we can see that on 
@@ -28,6 +26,8 @@ The dataset I am working will be from Yahoo finance and you can access it from h
 when analyzing the price and quantity of bitcoin sold. I am planning to merge bitcoin dataset with dataset of other cryptos to make a correlation matrix and then decide
 what coins to hold in the portfolio.
 
+---
+
 ### Data Wrangling
 
 * Merging: Since my research was to check the correlation of bitcoin price with other cryptos, I started looking for the cryptos which have positive and negative 
@@ -40,6 +40,22 @@ weak negative correlation with the Bitcoin price. Some of the problems encounter
               high bitcoin price.
   * Selection of Relevant Columns: Since I was only analyzing the correlation effect of prices of these crypto currencies, I dropped columns except Date and High. 
                                    The column Date was the key to merge the columns of the dataset.
+
+* Missing values: During my initial inspection of the dataset, I found that the weekend datas were missing from the dataset.Later on I realized that during 
+these times the stock market is closed. Although the stock market is closed, trading apps like Robinhood, Coinbase allow you to trade these cryptos during the weekend. 
+I tried to find these datas and wanted to fill in the missing days but it seems like these apps don’t provide their data publicly. In future, if this is available 
+you can easily use pandas data analysis tool to add those data values. 
+
+* Correlation Matrix: For this part of data analysis, I used pearson coefficient correlation method and received the following data:
+
+Cryptos   |High_BTC | High_ETH | High_NEO | High_USDC
+----------|---------|----------|----------|----------
+High_BTC  | 1.00    | 0.98     |  0.82    | -0.42 
+High_ETH  | 0.98    | 1.00     |  0.86    | -0.41   
+High_NEO  | 0.83    | 0.86     |  1.00    | -0.20 
+High_USDC |-0.43    |-0.42     | -0.20    |  1.00
+
+---
 
 *Below you can see plotly graph object visualization where different bearish and bullish movement caused bitcoin price to rise to its current level. Feel free to make use of slider to see the dates that you are interested.*
 
@@ -66,12 +82,7 @@ I am finding datasets of other cryptos that have moderate relation with the pric
 Bitcoin, I can explain what coins to hold in our portfolio. The visualization might include correlation heatmap which is very important in the field of finance and 
 investment.
 
-Cryptos   |High_BTC | High_ETH | High_NEO | High_USDC
-----------|---------|----------|----------|----------
-High_BTC  | 1.00    | 0.98     |  0.82    | -0.42 
-High_ETH  | 0.98    | 1.00     |  0.86    | -0.41   
-High_NEO  | 0.83    | 0.86     |  1.00    | -0.20 
-High_USDC |-0.43    |-0.42     | -0.20    |  1.00
+
 
 
 
