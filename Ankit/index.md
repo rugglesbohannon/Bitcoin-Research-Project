@@ -91,6 +91,16 @@ to see the correlation between the prices of different currencies.*
 
 ---
 
+### Conclusion
+
+Finally, we can decide on how much percentage of each cryptocurrencies to hold based on the correlation matrix. Since bitcoin price has strong positive correlation
+with ethereum price, it is not safe to hold only these two crytpos. Instead, you can diversify your portfolio by holding more of USDC because this is negatively correlated
+with the bitcoin and ethereum price. Always remember that a well-diversified portfolio goes a long way in ensuring success in the ever-evolving and volatile cryptocurrency
+markets.
+
+---
+
+
 ### Jupyter Notebook
 
 This is a link to Jupyter notebook which has got the code for data wrangling and analysis. [Jupyter Notebook](Project.ipynb)
