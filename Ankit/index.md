@@ -61,27 +61,33 @@ High_USDC |-0.43    |-0.42     | -0.20    |  1.00
 
 {% include_relative Visualizations/bitcoin.html %}
 
-**Different univariate and bivariate plots**
+---
 
-I have chosen univariate plot to visualize both ethereum and bitcoin price. Both the prices have fluctuated a lot in a span of a year. These fluctuations are again
-a reminder that our portfolio should be diverse and not just include cryptos that has got strong positive correlation.
+**Different bivariate plots**
 
-{% include_relative Visualizations/boxplot.html %}
-
-{% include_relative Visualizations/box.html %}
-
-
-To clearly see the positive correlation between bitcoin and ethereum price, I made bivariate scatter plot.This hints on how our portfolio should look: 
-it's sure that we don't want our crypto portfolio to contain only bitcoin and ethereum.
+There are different biavariate scatter plots that are useful to visualize how these cryptocurrencies are correlated.
 
 {% include_relative Visualizations/ethereum.html %}
 
-**Coming Soon**
 
-I am finding datasets of other cryptos that have moderate relation with the price of Bitcoin. After finding the correlation matrix of all those cryptos with that of 
-Bitcoin, I can explain what coins to hold in our portfolio. The visualization might include correlation heatmap which is very important in the field of finance and 
-investment.
+From the above scatter plot, we can see that there is a strong positive correlation between the ethereum and the bitcoin price.
 
+{% include_relative Visualizations/NEO.html %}
+
+From the above scatter plot, we can see that there is moderate positive correlation between the NEO and the bitcoin price.
+
+{% include_relative Visualizations/USDC.html %}
+
+Finally from the above scatter plot, we can see that there is a weak negative correlation between the USDC and the bitcoin price.
+
+---
+
+### Correlation HeatMap
+
+*Below you can see the correlation heatmap of all the prices of cryptocurrencies that I am working in this project. Feel free to hover your mouse on different blocks
+to see the correlation between the prices of different currencies.* 
+
+{% include_relative Visualizations/correlation.html %}
 
 
 
