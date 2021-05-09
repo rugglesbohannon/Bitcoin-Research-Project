@@ -91,7 +91,8 @@ to see the correlation between the prices of different currencies.*
 
 ---
 
-[Jupyter Notebook](Project.ipynb)
+This is a link to Jupyter notebook which has got the code for data wrangling and analysis. [Jupyter Notebook](Project.ipynb)
+
 
 
 
