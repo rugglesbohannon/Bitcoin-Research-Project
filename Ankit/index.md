@@ -89,6 +89,10 @@ to see the correlation between the prices of different currencies.*
 
 {% include_relative Visualizations/correlation.html %}
 
+---
+
+[Jupyter Notebook](Project.ipynb)
+
 
 
 
