@@ -1,7 +1,7 @@
 
 ### Welcome to Ruggles's Page
 
-**Leading Question**
+**Leading Question:**
 
 Has media attention, adoption, and rejection of Bitcoin had an affect on Bitcoins market price?
 
