@@ -1,12 +1,9 @@
 
 ### Welcome to Ruggles's Page
 
-**Questions:**
+**Leading Question**
 
-1. What has caused some companies to adopt or reject Bitcoin as payment at their private business? 
-2. Why did they make their decision when they did? 
-3. How does Bitcoin adjust for inflation?
-4. How will the addition of more Bitcoin (as it is mined more frequently) change the price of one Bitcoin? 
+Has media attention, adoption, and rejection of Bitcoin had an affect on Bitcoins market price?
 
 **Data Sorces:**
 
@@ -27,11 +24,9 @@ Market Watch Major Milestones
 
 **Coming Soon**
 
-Data visualizations looking into how news, adoption, and rejection of Bitcoin affected its market price. 
+Data visualizations looking into how media attention, adoption, and rejection of Bitcoin effect its price.
 
-Data visualizations on how the addition of more bitcoin affected its market price.
- 
-    
+
 **Visualizations:**
 
 Opening Price of Bitcoin from May 2020 - April 2021
@@ -40,4 +35,9 @@ Opening Price of Bitcoin from May 2020 - April 2021
 Volume of Bitcoin from May 2020 - April 2021 (Outlier - Feb 26th, 2021 Volume = 350.9679 B)
 ![newplot (6)](https://user-images.githubusercontent.com/82183767/116827119-4f3a0a00-ab4c-11eb-980b-5d15216121cf.png)
 
+**Aditinal Questions to Consider:**
 
+1. What has caused some companies to adopt or reject Bitcoin as payment at their private business? 
+2. Why did they make their decision when they did? 
+3. How does Bitcoin adjust for inflation?
+4. How will the addition of more Bitcoin (as it is mined more frequently) change the price of one Bitcoin?
