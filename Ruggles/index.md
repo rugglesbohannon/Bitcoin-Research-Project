@@ -21,15 +21,15 @@ I validated the Yahoo Finance data by looking at MarketWatch's list of major mar
 
 
 Yahoo Finance Major Milestones
-{% include relative Visualizations/ww-yahoomilestone.html %}
+
 
 
 Market Watch Major Milestones
 
-{% include relative Visualizations/ww-marketwatchmilestone.html %}
+
 
 Yahoo Finance Data 3D
-{% include relative Visualizations/ww-bitthreed.html %}
+
 
 **Project Concept & Methodology**
 
@@ -44,11 +44,6 @@ I decided to use various types of data to delineate any connections between Bitc
 
 Below I have included a Plotly visualization showing how large this IPO valuation was in comparison to other crypto exchanges, along with two visualizations showing what Bitcoins stock price looked like when Coinbase’s IPO was released. 
 
-{% include relative Visualizations/ww-exch13.html %}
-
-{% include relative Visualizations/ww-coinbaseipo.html %}
-
-{% include relative Visualizations/ww-coinbaseipo3d.html %}
 
 The decline in stock value is evident after the IPO date. This finding did not support my hypothesis about Coinbase’s IPO lifting the stock value. This could be because stockholders believed that Coinbase’s valuation was overvalued. It is interesting as to why the stock peaked when it did. There may have been some anticipation for Coinbase to go public, and that anticipation caused stock to be purchased before the IPO was released.
 
@@ -64,11 +59,10 @@ As seen in the plot, the stock fell significantly the day after the tweet, but t
 
 Finally, I decided to again use Tesla as an example to see if the rejection of Bitcoin had any affect on its market value. During the first quarter of 2021, Tesla purchased and sold a significant amount of Bitcoin. On February 8th of 2021, Tesla purchased $1.5B worth of Bitcoin. This comes out to be aproxomatly 43,000 Bitcoin. During the same quarter, due to the volatility and instability of the cryptocurrency, decided to sell off some of their Bitcoin. After selling, Tesla ended the first quarter with ~ 38,300 Bitcoin that cost $1.329B. 
 
-{% include relative Visualizations/ww-buysell.html %}
+
 
 This action of their Bitcoin has received a lot of attention. I again isolated the month where this event occurred by locating the day on which Teslas Q1 report was published, and plotted the Yahoo Finance data to see if there was a correlation.
 
-{% include relative Visualizations/ww-teslaqone.html %}
 
 As seen in this plot, there seems to be a slight bump in the stock price after the report was released. Although, it is hard to draw a definite conclusion that this increase in stock value has been caused by the publication. 
 
