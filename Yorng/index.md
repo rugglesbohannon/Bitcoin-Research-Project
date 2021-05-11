@@ -5,7 +5,7 @@
 
 According to [Forbes](https://www.forbes.com/advisor/investing/what-is-bitcoin/) Bitcoin is a decentralized digital currency that you can exchange, buy and sell without an intermediary like a bank. It is created using blockchain and it is secure since each Bitcoin is encrypted with a unique blockchain.
 
-**Project Idea**
+**Data Visualization**
 
 Many places are starting to accept bitcoins as payment methods and this truly helped build the faith in bitcoin and allowed miners to be able to spend their coins and not letting their mining effort go to waste. Bitcoin apparantly takes a lot of computing power and electricity to mine. As more places and companies are accepting bitcoin, the world is slowly but surely shifting into a more crypto world. 
 
@@ -17,7 +17,28 @@ My data is from [here](datadescription.md)
 {% include_relative Visualizations/ww-bitcoinmapping.html%}
 
 
-**Further Explorations**
+**Heatmap of Locations that Accept Bitcoin**
+
+The following map below shows the density map of the locations that accept bitcoin.
+
+{% include_relative Visualizations/ww-bitcoinmappingmonthly.html%}
+
+**Miner Rewards of Bitcoin**
+
+Bitcoin can be a very power consuming thing especially when you are using a lot of computing power to create the blockchains for bitcoin. However, it is a very rewarding process in which people around the world earn millions of dollars daily when combined together.
+
+{% include_relative Visualizations/ww-minerrewards.html%}
+
+**Total Market Cap of Bitcoin**
+
+Does the total rewarded amount of bitcoin affect the market cap of the bitcoins?
+
+Here is a visulization of the market capital of bitcoin over time.
+
+% include_relative Visualizations/ww-btcminercap.html%}
+
+**Jupyter Notebook**
+
+Here is the [jupyter notebook](Bitcoin.ipynb) of the whole thing.
 
 
-I would like to dig deeper on websites that accept bitcoin as payment method, but the data is very limited and I could not find any data on it. Furhermore a con for this data is that bitcoin can allow people to make anonymous transactions which would make it difficult if things are on the black market. However, I am determined to dig deeper to find more information about bitcoins rather than just visualizing its price over time.
