@@ -1,5 +1,5 @@
 
-### Welcome to Ruggles's Page
+### Welcome to my page
 
 **Questions:**
 
