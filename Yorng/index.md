@@ -27,7 +27,7 @@ The following map below shows the density map of the locations that accept bitco
 
 Bitcoin can be a very power consuming thing especially when you are using a lot of computing power to create the blockchains for bitcoin. However, it is a very rewarding process in which people around the world earn millions of dollars daily when combined together.
 
-{% include_relative Visualizations/ww-minerrewards.html %}
+<!-- {% include_relative Visualizations/ww-minerrewards.html %} -->
 
 **Total Market Cap of Bitcoin**
 
@@ -35,7 +35,7 @@ Does the total rewarded amount of bitcoin affect the market cap of the bitcoins?
 
 Here is a visulization of the market capital of bitcoin over time.
 
-{% include_relative Visualizations/ww-btcminercap.html %}
+<!-- {% include_relative Visualizations/ww-btcminercap.html %} -->
 
 **Jupyter Notebook**
 
