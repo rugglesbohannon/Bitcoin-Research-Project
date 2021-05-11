@@ -21,7 +21,7 @@ My data is from [here](datadescription.md)
 
 The following map below shows the density map of the locations that accept bitcoin.
 
-<!--{% include_relative Visualizations/ww-bitcoinmappingmonthly.html %}-->
+<!-- {% include_relative Visualizations/ww-bitcoinmappingmonthly.html %} -->
 
 **Miner Rewards of Bitcoin**
 
@@ -35,7 +35,7 @@ Does the total rewarded amount of bitcoin affect the market cap of the bitcoins?
 
 Here is a visulization of the market capital of bitcoin over time.
 
-% include_relative Visualizations/ww-btcminercap.html %}
+{% include_relative Visualizations/ww-btcminercap.html %}
 
 **Jupyter Notebook**
 
