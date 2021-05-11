@@ -39,7 +39,7 @@ Yahoo Finance Data 3D
 
 Cryptocurrencies have recently been receiving a lot of attention. Being highly volatile, hard to understand, created through mining, and apparently holding the opportunity for massive financial gains, these currencies are hard to not consider when thinking about the future of money. 
 
-I will be focusing my project around Bitcoin. Bitcoin is one of the more popular Cryptocurrencies. Bitcoin is a decentralized global cryptocurrency created by [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto#:~:text=Satoshi%20Nakamoto%20is%20the%20name,devised%20the%20first%20blockchain%20database)in 2009.
+I will be focusing my project around Bitcoin. Bitcoin is one of the more popular Cryptocurrencies. Bitcoin is a decentralized global cryptocurrency created by [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto#:~:text=Satoshi%20Nakamoto%20is%20the%20name,devised%20the%20first%20blockchain%20database) in 2009.
 
 To give some perspective surrounding why Bitcoin specifically may be the focus of so much media and financial buzz, consider the following. In 2013, only a few years after bitcoins creation, a single bitcoin was worth ~$100. In today's crypto market, a single bitcoin is estimated to be worth ~50,000. 
 
