@@ -7,7 +7,6 @@
 Has media attention, adoption, and rejection of Bitcoin had an affect on Bitcoins market price?
  
 **Main Data Sorces:**
-<<<<<<< HEAD
 
 - [Yahoo Finance](https://finance.yahoo.com/quote/BTC-USD/history/?guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAE1iTQEM3gqle4ifIZ0FxmNSrO2jLU8jHDLYEnM4DGZk4dCEd-VhKRedEtXl6B3t2wj_eoseVG3MVLDWtXR5JAlz3aI6aQAheKcsaQTuFuWYKJvZPD2RdG3mC41_VtyVCE2slSvx_iqysSqDrh8KBvPb6GpvOmdGVTfFMCBkWE0E&guccounter=2)
 - [MarketWatch](https://www.marketwatch.com/story/bitcoin-price-hits-new-record-clears-60-000-milestone-11615648314)
@@ -55,7 +54,7 @@ The decline in stock value is evident after the IPO date. This finding did not s
 
 I then decided to continue my exploration by looking into if the adoption of Bitcoin gave it more value in the market. I did this by looking at Tesla Motors. Tesla has been at the forefront of engaging in cryptocurrencies, even accepting Bitcoin as a form of payment for their vehicles. Tesla's well known founder, Elon Musk, engages with his social media frequently, posting on Twitter and on other platforms. I was curious if there were any specific Tweets or comments from him that could have influenced the price of Bitcoins market value. I isolated one Tweet from March of 2021 that seemed especially pro-Bitcoin.
 
-add screen shot.--------------------
+add screen shot
 
 I checked to see if this social media activity had any effect on the stock value of Bitcoin by isolating the original Yahoo data during the month when the Tweet was made, and then checked to see if the stock had any major movements following the comment. 
 
@@ -79,5 +78,4 @@ As seen in this plot, there seems to be a slight bump in the stock price after t
 2. Why did they make their decision when they did? 
 3. How does Bitcoin adjust for inflation?
 4. How will the addition of more Bitcoin (as it is mined more frequently) change the price of one Bitcoin?
-=======
->>>>>>> 209d7086b411865e9bc242e4f71acdc5dec1144b
+
