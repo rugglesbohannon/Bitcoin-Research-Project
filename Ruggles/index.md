@@ -7,6 +7,7 @@
 Has media attention, adoption, and rejection of Bitcoin had an affect on Bitcoins market price?
  
 **Main Data Sorces:**
+<<<<<<< HEAD
 
 - [Yahoo Finance](https://finance.yahoo.com/quote/BTC-USD/history/?guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAE1iTQEM3gqle4ifIZ0FxmNSrO2jLU8jHDLYEnM4DGZk4dCEd-VhKRedEtXl6B3t2wj_eoseVG3MVLDWtXR5JAlz3aI6aQAheKcsaQTuFuWYKJvZPD2RdG3mC41_VtyVCE2slSvx_iqysSqDrh8KBvPb6GpvOmdGVTfFMCBkWE0E&guccounter=2)
 - [MarketWatch](https://www.marketwatch.com/story/bitcoin-price-hits-new-record-clears-60-000-milestone-11615648314)
@@ -78,3 +79,5 @@ As seen in this plot, there seems to be a slight bump in the stock price after t
 2. Why did they make their decision when they did? 
 3. How does Bitcoin adjust for inflation?
 4. How will the addition of more Bitcoin (as it is mined more frequently) change the price of one Bitcoin?
+=======
+>>>>>>> 209d7086b411865e9bc242e4f71acdc5dec1144b
