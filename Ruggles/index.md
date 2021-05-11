@@ -57,7 +57,7 @@ The decline in stock value is evident after the IPO date. This finding did not s
 
 I then decided to continue my exploration by looking into if the adoption of Bitcoin gave it more value in the market. I did this by looking at Tesla Motors. Tesla has been at the forefront of engaging in cryptocurrencies, even accepting Bitcoin as a form of payment for their vehicles. Tesla's well known founder, Elon Musk, engages with his social media frequently, posting on Twitter and on other platforms. I was curious if there were any specific Tweets or comments from him that could have influenced the price of Bitcoins market value. I isolated one Tweet from March of 2021 that seemed especially pro-Bitcoin.
 
-add screen shot
+![ElonTweet](https://user-images.githubusercontent.com/82183767/117762764-983e2e00-b1de-11eb-8b30-4b1c19ce932d.png)
 
 I checked to see if this social media activity had any effect on the stock value of Bitcoin by isolating the original Yahoo data during the month when the Tweet was made, and then checked to see if the stock had any major movements following the comment. 
 
