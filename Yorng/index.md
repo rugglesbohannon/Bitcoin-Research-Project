@@ -14,20 +14,20 @@ The main question that this plot is trying to tackle is where can I spend my bit
 
 The plot below shows the scatter map of the locations that accept bitcoin with the different colors representing the categories in which the bitcoin can be spent on.
 My data is from [here](datadescription.md)
-{% include_relative Visualizations/ww-bitcoinmapping.html%}
+{% include_relative Visualizations/ww-bitcoinmapping.html %}
 
 
 **Heatmap of Locations that Accept Bitcoin**
 
 The following map below shows the density map of the locations that accept bitcoin.
 
-{% include_relative Visualizations/ww-bitcoinmappingmonthly.html%}
+<!--{% include_relative Visualizations/ww-bitcoinmappingmonthly.html %}-->
 
 **Miner Rewards of Bitcoin**
 
 Bitcoin can be a very power consuming thing especially when you are using a lot of computing power to create the blockchains for bitcoin. However, it is a very rewarding process in which people around the world earn millions of dollars daily when combined together.
 
-{% include_relative Visualizations/ww-minerrewards.html%}
+{% include_relative Visualizations/ww-minerrewards.html %}
 
 **Total Market Cap of Bitcoin**
 
@@ -35,7 +35,7 @@ Does the total rewarded amount of bitcoin affect the market cap of the bitcoins?
 
 Here is a visulization of the market capital of bitcoin over time.
 
-% include_relative Visualizations/ww-btcminercap.html%}
+% include_relative Visualizations/ww-btcminercap.html %}
 
 **Jupyter Notebook**
 
