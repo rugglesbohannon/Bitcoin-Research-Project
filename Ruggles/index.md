@@ -1,26 +1,18 @@
-## Welcome to Ankit's Bitcoin Page
+## Welcome to Ruggles's Bitcoin Page
 
+### Welcome to my page
 
-- [x] Want to know more about investment portfolio?
+**Leading Question:**
 
-**Questions**
-1. Is it safe to invest only in Bitcoin?
-2. How can we maintain investment portfolio of Cryptocurrency to minimize our risk and earn smart profit?
-3. Will dogecoin land on the moon and how will bitcoin help dogecoin? 
-4. Which cryptos have positive correlation with bitcoin and which cryptos are unrelated to dogecoin?
+Has media attention, adoption, and rejection of Bitcoin had an affect on Bitcoins market price?
+ 
+**Main Data Sorces:**
 
-**Focus of this page**
-
-Bitcoin is a cryptocurrency that got the popularity in recent years due to much price increase. The value of bitcoin has increased by **685%** in a span of year. It was $7000 a year ago and now its value is $55,000.
-This page will do the analysis of volatility in the price of bitcoin and how it gained popularity in recent years among bitcoin miners,investors and the public. Lastly, we will use a lot of visualization to grasp the idea visually.
-
-**Data Description**
-
-The dataset I am working will be from Yahoo finance and you can access it from here: [Bitcoin data](https://finance.yahoo.com/quote/BTC-USD/history/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAE1iTQEM3gqle4ifIZ0FxmNSrO2jLU8jHDLYEnM4DGZk4dCEd-VhKRedEtXl6B3t2wj_eoseVG3MVLDWtXR5JAlz3aI6aQAheKcsaQTuFuWYKJvZPD2RdG3mC41_VtyVCE2slSvx_iqysSqDrh8KBvPb6GpvOmdGVTfFMCBkWE0E)
-It has different columns of data like high, low, open and close price. It has also got the volumes of Bitcoin sold in the market which can be of particular importance
-when analyzing the price and quantity of bitcoin sold.
-
-*Below you can see plotly graph object visualization where different bearish and bullish movement caused bitcoin price to rise to its current level. Feel free to make use of slider to see the dates that you are interested.*
+- [Yahoo Finance](https://finance.yahoo.com/quote/BTC-USD/history/?guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAE1iTQEM3gqle4ifIZ0FxmNSrO2jLU8jHDLYEnM4DGZk4dCEd-VhKRedEtXl6B3t2wj_eoseVG3MVLDWtXR5JAlz3aI6aQAheKcsaQTuFuWYKJvZPD2RdG3mC41_VtyVCE2slSvx_iqysSqDrh8KBvPb6GpvOmdGVTfFMCBkWE0E&guccounter=2)
+- [MarketWatch](https://www.marketwatch.com/story/bitcoin-price-hits-new-record-clears-60-000-milestone-11615648314)
+- [Statista](https://www.statista.com/statistics/864738/leading-cryptocurrency-exchanges-traders/)
+- [Tesla 2021 Q1 Report](https://www.sec.gov/Archives/edgar/data/1318605/000095017021000046/tsla-20210331.htm)
+- [Twitter](https://twitter.com/elonmusk)
 
 
 
