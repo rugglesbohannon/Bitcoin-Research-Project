@@ -15,19 +15,22 @@ Has media attention, adoption, and rejection of Bitcoin had an affect on Bitcoin
 - [Twitter](https://twitter.com/elonmusk)
 
 Some of Yahoo Finance's data has missing values on 2020-10-09, 2020-10-12, and 2020-10-13. 
-My research does not suggest that the market was under any unusual distress during these dates. These missing values were reported months after the market crash in March of 2020. Reports from the [Yahoo Finance](https://finance.yahoo.com/news/stock-market-news-oct-9-134301485.html) and [The New York Times](https://www.nytimes.com/issue/todaysheadlines/2020/10/09/todays-headlines) corroborate that there was no unusual market activity that would have caused missing data.
+My research does not suggest that the market was under any unusual distress during these dates. These missing values were reported months after the market crash in March of 2020. Reports from the
 
-I validated the Yahoo Finance data by looking at [MarketWatch's](https://www.marketwatch.com/story/bitcoin-price-hits-new-record-clears-60-000-milestone-11615648314) list of major market events and comparing specific dates and prices from each source. Below I have included two bar graphs comparing major price milestones from Jan 2nd, Jan 7th, Feb 16th, Mar 13th of 2021.
+list of major market events and comparing specific dates and prices from each source. Below I have included two bar graphs comparing major price milestones from Jan 2nd, Jan 7th, Feb 16th, Mar 13th of 2021.
 
 
 Yahoo Finance Major Milestones
+
 {% include relative Visualizations/ww-yahoomilestone.html %}
 
 
 Market Watch Major Milestones
+
 {% include relative Visualizations/ww-marketwatchmilestone.html %}
 
 Yahoo Finance Data 3D
+
 {% include relative Visualizations/ww-bitthreed.html %}
 
 **Project Concept & Methodology**
@@ -52,7 +55,7 @@ The decline in stock value is evident after the IPO date. This finding did not s
 
 I then decided to continue my exploration by looking into if the adoption of Bitcoin gave it more value in the market. I did this by looking at Tesla Motors. Tesla has been at the forefront of engaging in cryptocurrencies, even accepting Bitcoin as a form of payment for their vehicles. Tesla's well known founder, Elon Musk, engages with his social media frequently, posting on Twitter and on other platforms. I was curious if there were any specific Tweets or comments from him that could have influenced the price of Bitcoins market value. I isolated one Tweet from March of 2021 that seemed especially pro-Bitcoin.
 
-add screen shot.--------------------
+add screen shot
 
 I checked to see if this social media activity had any effect on the stock value of Bitcoin by isolating the original Yahoo data during the month when the Tweet was made, and then checked to see if the stock had any major movements following the comment. 
 
