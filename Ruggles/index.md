@@ -19,24 +19,27 @@ My research does not suggest that the market was under any unusual distress duri
 
 I validated the Yahoo Finance data by looking at [MarketWatch's](https://www.marketwatch.com/story/bitcoin-price-hits-new-record-clears-60-000-milestone-11615648314) list of major market events and comparing specific dates and prices from each source. Below I have included two bar graphs comparing major price milestones from Jan 2nd, Jan 7th, Feb 16th, Mar 13th of 2021.
 
+Yahoo Finance Data Line Graph
+{% include relative Visualizations/ww-bitcoinfull.html %}
+
+Yahoo Finance Data Bar Graph
+{% include relative Visualizations/ww-bitcoinfullbar.html %}
 
 Yahoo Finance Major Milestones
 {% include relative Visualizations/ww-yahoomilestone.html %}
 
-
 Market Watch Major Milestones
-
 {% include relative Visualizations/ww-marketwatchmilestone.html %}
 
 Yahoo Finance Data 3D
 {% include relative Visualizations/ww-bitthreed.html %}
 
+
 **Project Concept & Methodology**
 
 Cryptocurrencies have recently been receiving a lot of attention. Being highly volatile, hard to understand, created through mining, and apparently holding the opportunity for massive financial gains, these currencies are hard to not consider when thinking about the future of money. 
 
-I will be focusing my project around Bitcoin. Bitcoin is one of the more popular Cryptocurrencies. Bitcoin is a decentralized global cryptocurrency created by in 2009.
-
+I will be focusing my project around Bitcoin. Bitcoin is one of the more popular Cryptocurrencies. Bitcoin is a decentralized global cryptocurrency created by [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto#:~:text=Satoshi%20Nakamoto%20is%20the%20name,devised%20the%20first%20blockchain%20database)in 2009.
 
 To give some perspective surrounding why Bitcoin specifically may be the focus of so much media and financial buzz, consider the following. In 2013, only a few years after bitcoins creation, a single bitcoin was worth ~$100. In today's crypto market, a single bitcoin is estimated to be worth ~50,000. 
 
@@ -72,10 +75,43 @@ This action of their Bitcoin has received a lot of attention. I again isolated t
 
 As seen in this plot, there seems to be a slight bump in the stock price after the report was released. Although, it is hard to draw a definite conclusion that this increase in stock value has been caused by the publication. 
 
+**Sorces**
+
+- [CNBC](https://www.cnbc.com/2021/04/15/coinbase-coin-climbs-11percent-in-premarket-after-nasdaq-debut.html#:~:text=Coinbase%20employees%20spray%20champagne%20during,Wednesday%2C%20April%2014%2C%202021.&text=Bloomberg%20%7C%20Getty%20Images-,Coinbase%20shares%20whipsawed%20Thursday%2C%20a%20day%20after%20the%20cryptocurrency%20exchange,in%20a%20blockbuster%20direct%20listing)
+
+- [WSJ 1](https://www.wsj.com/articles/coinbase-stock-price-valuation-and-everything-else-you-need-to-know-11618413312) [WSJ 2](https://www.wsj.com/articles/coinbase-shares-surge-in-trading-debut-11618421619?mod=article_inline)
+
+- [Buy Bitcoin Worldwide](https://www.buybitcoinworldwide.com/who-accepts-bitcoin/)
+
+- [Forbes](https://www.forbes.com/sites/clareoconnor/2014/02/17/how-to-use-bitcoin-to-shop-at-amazon-home-depot-cvs-and-more/?sh=56495c5d2de2)
+
+- [Business Insider](https://www.businessinsider.com/more-companies-accepting-bitcoin-cryptocurrency-paypal-starbucks-2021-4)
+
+- [CNBC](https://www.cnbc.com/2021/03/24/elon-musk-says-people-can-now-buy-a-tesla-with-bitcoin.html)
+
+- [MIT Technology Review](https://www.technologyreview.com/2019/05/14/135388/you-can-now-pay-with-cryptocurrency-at-whole-foods/)
+
+- [Yahoo Life](https://www.cnbc.com/2021/02/08/tesla-buys-1point5-billion-in-bitcoin.html)
+
+- [CNBC](https://www.cnbc.com/2021/02/08/tesla-buys-1point5-billion-in-bitcoin.html)
+
+- [The Street](https://www.thestreet.com/crypto/bitcoin/why-did-tesla-sell-some-of-its-bitcoin)
+
+- [Fortune 1](https://fortune.com/2021/04/27/tesla-tsla-bitcoin-btc-bet-how-much-has-it-made-elon-musk-profits/#:~:text=Ever%20since%20Tesla%20announced%20its,made%20on%20its%20big%20wager) [Fortune 2](https://fortune.com/2021/04/27/tesla-tsla-bitcoin-btc-bet-how-much-has-it-made-elon-musk-profits/#:~:text=Result%3A%20Tesla%20still%20holds%20around%2038%2C300%20Bitcoin%20that%20cost%20%241.329%20billion)
+
+- [Twitter](https://twitter.com/elonmusk)
+
+- [Coindesk](https://www.coindesk.com/tesla-sold-bitcoin-in-q1-for-proceeds-of-272m)
+
+- Tesla [Press Release info](https://ir.tesla.com/press-release/tesla-announces-date-first-quarter-2021-financial-results-and-webcast#:~:text=PALO%20ALTO%2C%20Calif.%2C%20April,Monday%2C%20April%2026%2C%202021), [Quarterly & Annual Summaries](https://ir.tesla.com/), [Q1 2021 Report](https://www.sec.gov/Archives/edgar/data/1318605/000095017021000046/tsla-20210331.htm), [Q1 2021 Report Slides](https://tesla-cdn.thron.com/static/R3GJMT_TSLA_Q1_2021_Update_5KJWZA.pdf?xseo=&response-content-disposition=inline%3Bfilename%3D%22TSLA-Q1-2021-Update.pdf%22)
+
+- [Statista](https://www.statista.com/statistics/864738/leading-cryptocurrency-exchanges-traders/)
+
 **Aditinal Questions to Consider:**
 
 1. What has caused some companies to adopt or reject Bitcoin as payment at their private business? 
 2. Why did they make their decision when they did? 
 3. How does Bitcoin adjust for inflation?
 4. How will the addition of more Bitcoin (as it is mined more frequently) change the price of one Bitcoin?
+
 
