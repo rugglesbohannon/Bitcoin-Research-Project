@@ -1,9 +1,7 @@
 ## Welcome to Ankit's Bitcoin Page
 
-![](images/bitcoin.jpg)
 
-
-- [x] Want to know more about investment portfolio? [Click here](investment.md)
+- [x] Want to know more about investment portfolio?
 
 **Questions**
 1. Is it safe to invest only in Bitcoin?
@@ -24,7 +22,6 @@ when analyzing the price and quantity of bitcoin sold.
 
 *Below you can see plotly graph object visualization where different bearish and bullish movement caused bitcoin price to rise to its current level. Feel free to make use of slider to see the dates that you are interested.*
 
-{% include_relative Visualizations/bitcoin.html %}
 
 
 
