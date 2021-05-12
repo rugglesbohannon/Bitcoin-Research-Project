@@ -83,9 +83,6 @@ As seen in this plot, there seems to be a slight bump in the stock price after t
 
 For more information on how I did my research, please download the Jypter Notbook below.
 
-{% raw %}
-<button onclick="window.open('/jypnotebook/BitcoinNotebook(1).ipynb')">Download</button>
-{% endraw %}
 
 
 
