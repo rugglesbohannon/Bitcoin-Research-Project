@@ -113,6 +113,3 @@ As seen in this plot, there seems to be a slight bump in the stock price after t
 2. Why did they make their decision when they did? 
 3. How does Bitcoin adjust for inflation?
 4. How will the addition of more Bitcoin (as it is mined more frequently) change the price of one Bitcoin?
-
-
-working?
