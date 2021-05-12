@@ -81,11 +81,8 @@ This action of their Bitcoin has received a lot of attention. I again isolated t
 
 As seen in this plot, there seems to be a slight bump in the stock price after the report was released. Although, it is hard to draw a definite conclusion that this increase in stock value has been caused by the publication. 
 
-For more information on how I did my research, please download the Jypter Notbook below.
+For more information on how I did my research, please download the [Jypter Notbook](/jypnotebook/BitcoinNotebook1.ipynb)
 
-{% raw %}
-<button onclick="window.open('/jypnotebook/BitcoinNotebook(1).ipynb')">Download</button>
-{% endraw %}
 
 
 **Sorces**
