@@ -83,7 +83,9 @@ As seen in this plot, there seems to be a slight bump in the stock price after t
 
 For more information on how I did my research, please download the Jypter Notbook below.
 
-
+{% raw %}
+<button onclick="window.open('/jypnotebook/BitcoinNotebook(1).ipynb')">Download</button>
+{% endraw %}
 
 
 **Sorces**
@@ -124,3 +126,6 @@ For more information on how I did my research, please download the Jypter Notboo
 2. Why did they make their decision when they did? 
 3. How does Bitcoin adjust for inflation?
 4. How will the addition of more Bitcoin (as it is mined more frequently) change the price of one Bitcoin?
+
+
+Thank You!
