@@ -1,39 +1,62 @@
 ## Welcome to Doris's Page
 
-**What Is Bitcoin** 
+***What Is Bitcoin*** 
 
 Bitcoin is a cryptocurrency developed in 2009 by Satoshi Nakamoto. Unlike investing in traditional currencies, bitcoin is not issued by a central bank or backed by a government. And buying a bitcoin is different than purchasing a stock or bond because bitcoin is not a corporation. Therefore, the monetary policy, inflation rates, and economic growth measurements that typically influence the value of currency do not apply to bitcoin. 
 
-**What Determined Bitcoin Price?** 
+**About This Page** 
 
-The article about [Bitcoin price](https://www.thebalance.com/who-sets-bitcoin-s-price-391278). For this project, I want to roughly predict the bitcoin price in years based on the historical data. Additionally, detect the correlation between bitcoin and the stocks price of large companies that accept bitcoin as payment method. 
+The article about [Bitcoin price](https://www.thebalance.com/who-sets-bitcoin-s-price-391278).In this page, I want to visualize the bitcoin historical price trends. You can also see the correlation between bitcoin and the stock price of large companies that accept bitcoin as payment method, correlation between bitcoin and other currency 
+
+Machine learning (ML) has significant applications in the stock price prediction, and I compare two ML model that predicted the bitcoin price. One is Prophet model developed by Facebook based on [additive model](https://en.wikipedia.org/wiki/Additive_model);another is [Long Short-Term memory (LSTM) neural network model](https://en.wikipedia.org/wiki/Long_short-term_memory). 
+PS. The code and models are well developed, and I only compare them. All the sources are available and open online.  
+
 
 **Data Source**
 
-All the data are from [Yahoo Finance](https://finance.yahoo.com/), it contains the Open, Close, High and Low price of bitcoin price, stocks price, and currency price. 
+All the data are from [Yahoo Finance](https://finance.yahoo.com/), it contains the Open, Close, High and Low price of bitcoin price, stocks price, and currency price. For Pearson correlation coefficient calculation, the Tech companies stocks prices is in recent one year by daily; and the currency and metal data is in last five years by monthly. 
+
 
 **Bitcoin Price Trends**
 
 
-The Visualization of all available Bitcoin historical price in USD from Sep 15 2014 until Today* 
+The Visualization of all available Bitcoin historical price in USD from Sep 15, 2014 until Today. In the black square is the bitcoin price trends after pandemic. After pandemic began, the bitcoin price is constantly increase and increase curve is became steep after Oct 2020. 
 {% include_relative Visualization/BTC_USD.html %}
+For bitcoin historical data table, click here(trends.md).
 
 ****
 
-**Bitcoin Correlation with Other Stocks and Currency**
+***Bitcoin Trends Visualization***
 
-I used Pearson r correlation for all the data. The stocks prices is in recent one year by daily, and the currency data is in last five years by monthly. 
+**Bitcoin Trends with Google Search Trends**
+The Visualization of Bitcoin Trends and Google Search Trends of ‘Bitcoin. 
+{% include_relative Visualization/BTC_Google.html %}
+
+The trends between bitcoin research trends and bitcoin price flow are very similar in last year. When the bitcoin price increased, the search is increased. Seem like people loss the interest between Feb and March 2021 even the bitcoin price is increasing. But the recently rising interested on bitcoin topic. 
+
+**Bitcoin Trends with Stock Price of tech Companies that Allow Bitcoin as Payment**
+
+*Nasdaq stock market and stock prices of [companies](https://www.insidermonkey.com/blog/5-biggest-companies-that-accept-bitcoin-915752/3/) that accepted bitcoin as payment method: [BMW](https://finance.yahoo.com/quote/BMW.DE/history?p=BMW.DE), [Tesla](https://finance.yahoo.com/quote/TSLA?p=TSLA&.tsrc=fin-srch), [Microsoft](https://finance.yahoo.com/quote/MSFT?p=MSFT&.tsrc=fin-srch), and [AT&T](https://finance.yahoo.com/quote/T?p=T&.tsrc=fin-srch).*
+
+{% include_relative Visualization/Bitcoin_Stocks_Trends.html %}
+Through the line graph, is hard to know their price is correlate or not, but the BMW, Microsoft and Bitcoin have a little similarity after 2021. Therefore, I calculate the Pearson correlation coefficient between each stock price. 
+
+***Bitcoin Correlation with Other Stocks and Currency***
+
+**Correlation Matrix between Tech Companies Stock Prices and Bitcoin Prices**
 
 {% include_relative Visualization/Bitcoin_Currency_Matrix.html %} 
+
+None of the correlation is significant (r >.95). But the correlation coefficient between BMW and bitcoin is 0.79; correlation coefficient between Microsoft and bitcoin is 0.8. Their prices are relatively correlate to bitcoin price. Noticeable, correlation is not mean causal relationship between two variables. There are some unknow internal factors that make the stock prices of BMW, Microsoft, and bitcoin price trends is very similar in last year. 
+
+**Correlation Matrix between Currency, Mental Prices, and Bitcoin Price**
 
 *The correlation matrix between [EUR](https://finance.yahoo.com/quote/EURUSD=X?p=EURUSD=X&.tsrc=fin-srch), [CNY](https://finance.yahoo.com/quote/CNY=X?p=CNY=X&.tsrc=fin-srch), [gold](https://finance.yahoo.com/quote/GOLD?p=GOLD&.tsrc=fin-srch), [silver](https://finance.yahoo.com/quote/SI=F?p=SI=F&.tsrc=fin-srch), [palladium](https://finance.yahoo.com/quote/PA=F?p=PA=F&.tsrc=fin-srch), and [platinum](https://finance.yahoo.com/quote/PL=F?p=PL=F&.tsrc=fin-srch) monthly prices in last five years*
 
 {% include_relative Visualization/Bitcoin_Stock_Matrix.html %}
 
-*The correlation matrix between Nasdaq stock market and stock prices of [companies](https://www.insidermonkey.com/blog/5-biggest-companies-that-accept-bitcoin-915752/3/) that accepted bitcoin as payment method: [BMW](https://finance.yahoo.com/quote/BMW.DE/history?p=BMW.DE), [Tesla](https://finance.yahoo.com/quote/TSLA?p=TSLA&.tsrc=fin-srch), [Microsoft](https://finance.yahoo.com/quote/MSFT?p=MSFT&.tsrc=fin-srch), and [AT&T](https://finance.yahoo.com/quote/T?p=T&.tsrc=fin-srch).*
+The correlation coefficient between Euro, Chinese yuan, gold, silver, palladium, and platinum is very week(r<0.6). The price of bitcoin almost not correlate with other currency and metal price. Because all of prices is measured in USD, so the USD not including in the correlation test. 
 
-
-Here is the [Trends Visualization](trends.md).
 
 **Bitcoin Price Prediction** 
 
