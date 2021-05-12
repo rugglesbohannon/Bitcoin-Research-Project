@@ -47,17 +47,23 @@ I decided to use various types of data to delineate any connections between Bitc
 
 Below I have included a Plotly visualization showing how large this IPO valuation was in comparison to other crypto exchanges, along with two visualizations showing what Bitcoins stock price looked like when Coinbase’s IPO was released. 
 
+
 {% include_relative Visualizations/ww-exch13.html %}
+
 
 {% include_relative Visualizations/ww-coinbaseipo.html %}
 
+
 {% include_relative Visualizations/ww-coinbaseipo3d.html %}
+
 
 The decline in stock value is evident after the IPO date. This finding did not support my hypothesis about Coinbase’s IPO lifting the stock value. This could be because stockholders believed that Coinbase’s valuation was overvalued. It is interesting as to why the stock peaked when it did. There may have been some anticipation for Coinbase to go public, and that anticipation caused stock to be purchased before the IPO was released.
 
 I then decided to continue my exploration by looking into if the adoption of Bitcoin gave it more value in the market. I did this by looking at Tesla Motors. Tesla has been at the forefront of engaging in cryptocurrencies, even accepting Bitcoin as a form of payment for their vehicles. Tesla's well known founder, Elon Musk, engages with his social media frequently, posting on Twitter and on other platforms. I was curious if there were any specific Tweets or comments from him that could have influenced the price of Bitcoins market value. I isolated one Tweet from March of 2021 that seemed especially pro-Bitcoin.
 
+
 ![ElonTweet](https://user-images.githubusercontent.com/82183767/117762764-983e2e00-b1de-11eb-8b30-4b1c19ce932d.png)
+
 
 I checked to see if this social media activity had any effect on the stock value of Bitcoin by isolating the original Yahoo data during the month when the Tweet was made, and then checked to see if the stock had any major movements following the comment. 
 
@@ -74,6 +80,12 @@ This action of their Bitcoin has received a lot of attention. I again isolated t
 {% include_relative Visualizations/ww-teslaqone.html %}
 
 As seen in this plot, there seems to be a slight bump in the stock price after the report was released. Although, it is hard to draw a definite conclusion that this increase in stock value has been caused by the publication. 
+
+For more information on how I did my research, please download the Jypter Notbook below.
+
+{% raw %}
+<button onclick="window.open('/jypnotebook/BitcoinNotebook(1).ipynb')">Download</button>
+{% endraw %}
 
 **Sorces**
 
