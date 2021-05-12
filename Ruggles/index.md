@@ -81,6 +81,8 @@ This action of their Bitcoin has received a lot of attention. I again isolated t
 
 As seen in this plot, there seems to be a slight bump in the stock price after the report was released. Although, it is hard to draw a definite conclusion that this increase in stock value has been caused by the publication. 
 
+After concluding my project, I have found that some of these questions that I have asked in regard to how the media, adoption, and rejection influence Bitcoins market price, may just be hard to answer. This stock is very volatile, and Bitcoin is relatively new. Some of the cortolations I found could just be by chance, or due to another of the various factors that dictate a stock's market price. I found it very hard to find any evidence from raw market data. This data shows how the stock has behaved, although, it doesn't go much further than that. There is only so much you can derive from opening prices and closing prices. When branching out to find more data on the topic, I found myself constantly being brought down the wrong path. One of the hardest things to research, that could have helped me understand the stock better, was dates on which certain major companies started to accept Bitcoin as a form of payment. While there are plenty of publications that describe which particular companies accept Bitcoin or Crypto wallets, there is not much data on when those companies made that possible. Going forward, I believe as more information comes out, and with the growing adoption of cryptocurrencies, it may be easier to determine what is causing the stock to rise and fall, but at the moment, it may just be too early to know.
+
 For more information on how I did my research, please download the [Jypter Notbook](BNotbook.ipynb)
 
 
