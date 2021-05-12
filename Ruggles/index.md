@@ -1,4 +1,4 @@
-## Welcome to Ruggles Bohannons Bitcoin Page
+## Welcome to Ruggles Bohannon's Bitcoin Page
 
 ### Welcome to my page
 
@@ -83,6 +83,13 @@ As seen in this plot, there seems to be a slight bump in the stock price after t
 
 For more information on how I did my research, please download the Jypter Notbook below.
 
+{% raw %}
+<button onclick="window.open('/jypnotebook/BitcoinNotebook(1).ipynb')">Download</button>
+{% endraw %}
+
+
+
+**Sorces**
 
 - [CNBC](https://www.cnbc.com/2021/04/15/coinbase-coin-climbs-11percent-in-premarket-after-nasdaq-debut.html#:~:text=Coinbase%20employees%20spray%20champagne%20during,Wednesday%2C%20April%2014%2C%202021.&text=Bloomberg%20%7C%20Getty%20Images-,Coinbase%20shares%20whipsawed%20Thursday%2C%20a%20day%20after%20the%20cryptocurrency%20exchange,in%20a%20blockbuster%20direct%20listing)
 
