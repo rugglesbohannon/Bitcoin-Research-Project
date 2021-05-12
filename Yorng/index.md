@@ -5,19 +5,42 @@
 
 According to [Forbes](https://www.forbes.com/advisor/investing/what-is-bitcoin/) Bitcoin is a decentralized digital currency that you can exchange, buy and sell without an intermediary like a bank. It is created using blockchain and it is secure since each Bitcoin is encrypted with a unique blockchain.
 
-**Project Idea**
+**Project**
 
-Many places are starting to accept bitcoins as payment methods and this truly helped build the faith in bitcoin and allowed miners to be able to spend their coins and not letting their mining effort go to waste. Bitcoin apparantly takes a lot of computing power and electricity to mine. As more places and companies are accepting bitcoin, the world is slowly but surely shifting into a more crypto world. 
+Question: Where can people spend all their bitcoin?
 
-The main question that this plot is trying to tackle is where can I spend my bitcoins and on what can I spend it on?
+To find the answer to the question, I tried searching for the data and found it [here](datadescription.md)
+
+The following graph shows us the various places where you can spend bitcoin around the world.
+
+{% include_relative Visualizations/ww-bitcoinmapping.html %}
+
+**Another Visualization**
+
+This visualization shows us the concetration(heatmap) of the areas around the world in which the places you can spend bitcoin are.
+
+{% include_relative Visualizations/ww-bitcoinmappingmonthly.html %}
+
+**Comparison of the graphs of Miner Rewards and Bitcoin Market Cap**
+
+Bitcoin is the only company to take the least amount of time to reach the 1 trillion dollar market capital value.
+
+The simple law of supply and demand states that if the supply is high, while demand stays constant, the prices will drop. 
+
+Does this apply to how much bitcoin is mined everyday?
+
+Let's take a look at the graphs of bitcoin market cap and the miner rewards
 
 
-The plot below shows the scatter map of the locations that accept bitcoin with the different colors representing the categories in which the bitcoin can be spent on.
-My data is from [here](datadescription.md)
-{% include_relative Visualizations/ww-bitcoinmapping.html%}
+This is the miner rewards graph:
+
+{% include_relative Visualizations/ww-minerrewards.html %}
+
+This is the graph of the total market cap of bitcoin:
+
+{% include_relative Visualizations/ww-btcminercap.htmll %}
+
+**Jupyter notebook**
+[This](Bitcoin.ipynb) is my jupyter nootebook.
 
 
-**Further Explorations**
-
-
-I would like to dig deeper on websites that accept bitcoin as payment method, but the data is very limited and I could not find any data on it. Furhermore a con for this data is that bitcoin can allow people to make anonymous transactions which would make it difficult if things are on the black market. However, I am determined to dig deeper to find more information about bitcoins rather than just visualizing its price over time.

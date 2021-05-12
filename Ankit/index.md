@@ -1,16 +1,9 @@
-## Welcome to Ankit's Bitcoin Page
+## Diversification of Investment Portfolio
 
 ![](images/bitcoin.jpg)
 
-**Broad Questions**
-1. Is it safe to invest only in Bitcoin?
-2. How can we maintain investment portfolio of Cryptocurrency to minimize our risk and earn smart profit?
-3. Will dogecoin land on the moon and how will bitcoin help dogecoin? 
-4. Which cryptos have positive correlation with bitcoin and which cryptos are unrelated to dogecoin?
 
-**Focus of this page**
-
-*Founding father of Cryptocurrency: Bitcoin*
+### Focus of this page
 
 Bitcoin is a cryptocurrency that got the popularity in recent years due to much price increase. The value of bitcoin has increased by **685%** in a span of year.
 Bitcoin is the largest cryptocurrency based on the market cap and makes over 50% of the entire cryptocurrency world. It would be fair to say that the entire 
@@ -24,50 +17,93 @@ be analyzing the correlation matrix of different types of crypto currencies with
 
 - [x] Want to know more about investment portfolio? [Click here](investment.md)
 
-**Data Description**
+---
 
-The dataset I am working will be from Yahoo finance and you can access it from here: [Bitcoin data](https://finance.yahoo.com/quote/BTC-USD/history/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAE1iTQEM3gqle4ifIZ0FxmNSrO2jLU8jHDLYEnM4DGZk4dCEd-VhKRedEtXl6B3t2wj_eoseVG3MVLDWtXR5JAlz3aI6aQAheKcsaQTuFuWYKJvZPD2RdG3mC41_VtyVCE2slSvx_iqysSqDrh8KBvPb6GpvOmdGVTfFMCBkWE0E)
-,[Ethereum data](https://finance.yahoo.com/quote/ETH-USD/history/).These datasets have different columns of data like high, low, open and close price. They have also got the volumes of Bitcoin and Ethereum sold in the market which can be of particular importance
+### Data Description
+
+The dataset I am working is from Yahoo finance and you can access it from here: [Bitcoin data](https://finance.yahoo.com/quote/BTC-USD/history/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAE1iTQEM3gqle4ifIZ0FxmNSrO2jLU8jHDLYEnM4DGZk4dCEd-VhKRedEtXl6B3t2wj_eoseVG3MVLDWtXR5JAlz3aI6aQAheKcsaQTuFuWYKJvZPD2RdG3mC41_VtyVCE2slSvx_iqysSqDrh8KBvPb6GpvOmdGVTfFMCBkWE0E)
+,[Ethereum data](https://finance.yahoo.com/quote/ETH-USD/history/),[NEO data](https://finance.yahoo.com/quote/NEO-USD/) and [USDC data](https://finance.yahoo.com/quote/USDC-USD/).These datasets have different columns of data like high, low, open and close price. They have also got the volumes of Bitcoin,Ethereum,NEO and USDC sold in the market which can be of particular importance
 when analyzing the price and quantity of bitcoin sold. I am planning to merge bitcoin dataset with dataset of other cryptos to make a correlation matrix and then decide
 what coins to hold in the portfolio.
 
-**Issues encountered with dataset and Analyzation**
+---
 
-* The bitcoin and ethereum data both misses the value of Saturday and Sunday maybe because the stock market is closed during that day but I know that people do 
-trade cryptocurrency when the market is closed too and apps like Coin base, Robinhood shows the data of these cryptocurrency during the weekend.
-* While merging the dataset of bitcoin and ethereum, because they have the same column names, one of them gets the x_value and the other gets the y_value. Is there a better way to give names of certain coins instead of x and y values. 
-I have tried giving column names after merging.
-* I am having a really hard time coming up with cryptocurrency that has negative correlation with bitcoin and got higher market cap. Once I come up with that I need 
-to import the dataset of that currency to find the correlation of that with bitcoin and analyze it in detail to manage our portfolio. 
+### Data Wrangling
+
+* Merging: Since my research was to check the correlation of bitcoin price with other cryptos, I started looking for the cryptos which have positive and negative 
+correlation with the bitcoin price. I found the data of three other cryptos: NEO, USDC and Ethereum. The next step was to merge all the datasets in order to build 
+a correlation heatmap. Ethereum had strong positive correlation with the Bitcoin price, NEO had moderate positive correlation with the Bitcoin price and USDC had 
+weak negative correlation with the Bitcoin price. Some of the problems encountered during merging are explained below:
+  * DataSets: Since all the datasets that I used were from Yahoo Finance, the column of datasets had the same name(Date,Open,High,Low,Close,Adj Close,Volume), 
+              while merging I received something like x_value for the first dataset and y_value for the second dataset. This was not a helpful name to analyze 
+              the correlation heatmap so before merging, I changed the name of each column with the acronym of currency name, something like High_BTC for 
+              high bitcoin price.
+  * Selection of Relevant Columns: Since I was only analyzing the correlation effect of prices of these crypto currencies, I dropped columns except Date and High. 
+                                   The column Date was the key to merge the columns of the dataset.
+
+* Missing values: During my initial inspection of the dataset, I found that the weekend datas were missing from the dataset.Later on I realized that during 
+these times the stock market is closed. Although the stock market is closed, trading apps like Robinhood, Coinbase allow you to trade these cryptos during the weekend. 
+I tried to find these datas and wanted to fill in the missing days but it seems like these apps don’t provide their data publicly. In future, if this is available 
+you can easily use pandas data analysis tool to add those data values. 
+
+* Correlation Matrix: For this part of data analysis, I used pearson coefficient correlation method and received the following data:
+
+Cryptos   |High_BTC | High_ETH | High_NEO | High_USDC
+----------|---------|----------|----------|----------
+High_BTC  | 1.00    | 0.98     |  0.82    | -0.42 
+High_ETH  | 0.98    | 1.00     |  0.86    | -0.41   
+High_NEO  | 0.83    | 0.86     |  1.00    | -0.20 
+High_USDC |-0.43    |-0.42     | -0.20    |  1.00
+
+---
 
 *Below you can see plotly graph object visualization where different bearish and bullish movement caused bitcoin price to rise to its current level. Feel free to make use of slider to see the dates that you are interested.*
 
 {% include_relative Visualizations/bitcoin.html %}
 
-**Different univariate and bivariate plots**
+---
 
-I have chosen univariate plot to visualize both ethereum and bitcoin price. Both the prices have fluctuated a lot in a span of a year. These fluctuations are again
-a reminder that our portfolio should be diverse and not just include cryptos that has got strong positive correlation.
+**Different bivariate plots**
 
-{% include_relative Visualizations/boxplot.html %}
-
-{% include_relative Visualizations/box.html %}
-
-
-To clearly see the positive correlation between bitcoin and ethereum price, I made bivariate scatter plot.This hints on how our portfolio should look: 
-it's sure that we don't want our crypto portfolio to contain only bitcoin and ethereum.
+There are different biavariate scatter plots that are useful to visualize how these cryptocurrencies are correlated.
 
 {% include_relative Visualizations/ethereum.html %}
 
-**Coming Soon**
 
-I am finding datasets of other cryptos that have moderate relation with the price of Bitcoin. After finding the correlation matrix of all those cryptos with that of 
-Bitcoin, I can explain what coins to hold in our portfolio. The visualization might include correlation heatmap which is very important in the field of finance and 
-investment.
+From the above scatter plot, we can see that there is a strong positive correlation between the ethereum and the bitcoin price.
+
+{% include_relative Visualizations/NEO.html %}
+
+From the above scatter plot, we can see that there is moderate positive correlation between the NEO and the bitcoin price.
+
+{% include_relative Visualizations/USDC.html %}
+
+Finally from the above scatter plot, we can see that there is a weak negative correlation between the USDC and the bitcoin price.
+
+---
+
+### Correlation HeatMap
+
+*Below you can see the correlation heatmap of all the prices of cryptocurrencies that I am working in this project. Feel free to hover your mouse on different blocks
+to see the correlation between the prices of different currencies.* 
+
+{% include_relative Visualizations/correlation.html %}
+
+---
+
+### Conclusion
+
+Finally, we can decide on how much percentage of each cryptocurrencies to hold based on the correlation matrix. Since bitcoin price has strong positive correlation
+with ethereum price, it is not safe to hold only these two crytpos. Instead, you can diversify your portfolio by holding more of USDC because this is negatively correlated
+with the bitcoin and ethereum price. Always remember that a well-diversified portfolio goes a long way in ensuring success in the ever-evolving and volatile cryptocurrency
+markets.
+
+---
 
 
+### Jupyter Notebook
 
-
+This is a link to Jupyter notebook which has got the code for data wrangling and analysis. [Jupyter Notebook](Project.ipynb)
 
 
 
