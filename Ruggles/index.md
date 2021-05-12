@@ -6,7 +6,7 @@
 
 Has media attention, adoption, and rejection of Bitcoin had an affect on Bitcoins market price?
  
-**Main Data Sorces:**
+**Main Data Sources:**
 
 - [Yahoo Finance](https://finance.yahoo.com/quote/BTC-USD/history/?guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAE1iTQEM3gqle4ifIZ0FxmNSrO2jLU8jHDLYEnM4DGZk4dCEd-VhKRedEtXl6B3t2wj_eoseVG3MVLDWtXR5JAlz3aI6aQAheKcsaQTuFuWYKJvZPD2RdG3mC41_VtyVCE2slSvx_iqysSqDrh8KBvPb6GpvOmdGVTfFMCBkWE0E&guccounter=2)
 - [MarketWatch](https://www.marketwatch.com/story/bitcoin-price-hits-new-record-clears-60-000-milestone-11615648314)
@@ -69,9 +69,9 @@ I checked to see if this social media activity had any effect on the stock value
 
 {% include_relative Visualizations/ww-musktweet.html %}
 
-As seen in the plot, the stock fell significantly the day after the tweet, but then rose again in the following days. It is hard to say with certainty that the Tweet is related to the stocks eventual rise, although it could be a factor. 
+As seen in the plot, the stock fell significantly the day after the tweet, but then rose again in the following days. It is hard to say with certainty that the Tweet is related to the stock's eventual rise, although it could be a factor. 
 
-Finally, I decided to again use Tesla as an example to see if the rejection of Bitcoin had any affect on its market value. During the first quarter of 2021, Tesla purchased and sold a significant amount of Bitcoin. On February 8th of 2021, Tesla purchased $1.5B worth of Bitcoin. This comes out to be aproxomatly 43,000 Bitcoin. During the same quarter, due to the volatility and instability of the cryptocurrency, decided to sell off some of their Bitcoin. After selling, Tesla ended the first quarter with ~ 38,300 Bitcoin that cost $1.329B. 
+Finally, I decided to again use Tesla as an example to see if the rejection of Bitcoin had any affect on its market value. During the first quarter of 2021, Tesla purchased and sold a significant amount of Bitcoin. On February 8th of 2021, Tesla purchased $1.5B worth of Bitcoin. This comes out to be aproxomatly 43,000 Bitcoin. During the same quarter, due to the volatility and instability of the cryptocurrency, they decided to sell off some of their Bitcoin. After selling, Tesla ended the first quarter with ~ 38,300 Bitcoin that cost $1.329B. 
 
 {% include_relative Visualizations/ww-buysell.html %}
 
@@ -83,11 +83,11 @@ As seen in this plot, there seems to be a slight bump in the stock price after t
 
 After concluding my project, I have found that some of these questions that I have asked in regard to how the media, adoption, and rejection influence Bitcoins market price, may just be hard to answer. This stock is very volatile, and Bitcoin is relatively new. Some of the cortolations I found could just be by chance, or due to another of the various factors that dictate a stock's market price. I found it very hard to find any evidence from raw market data. This data shows how the stock has behaved, although, it doesn't go much further than that. There is only so much you can derive from opening prices and closing prices. When branching out to find more data on the topic, I found myself constantly being brought down the wrong path. One of the hardest things to research, that could have helped me understand the stock better, was dates on which certain major companies started to accept Bitcoin as a form of payment. While there are plenty of publications that describe which particular companies accept Bitcoin or Crypto wallets, there is not much data on when those companies made that possible. Going forward, I believe as more information comes out, and with the growing adoption of cryptocurrencies, it may be easier to determine what is causing the stock to rise and fall, but at the moment, it may just be too early to know.
 
-For more information on how I did my research, please download the [Jypter Notbook](BNotbook.ipynb)
+For more information on how I did my research, please download the [Jypter Notebook](BNotbook.ipynb)
 
 
 
-**Sorces**
+**Sources**
 
 - [CNBC](https://www.cnbc.com/2021/04/15/coinbase-coin-climbs-11percent-in-premarket-after-nasdaq-debut.html#:~:text=Coinbase%20employees%20spray%20champagne%20during,Wednesday%2C%20April%2014%2C%202021.&text=Bloomberg%20%7C%20Getty%20Images-,Coinbase%20shares%20whipsawed%20Thursday%2C%20a%20day%20after%20the%20cryptocurrency%20exchange,in%20a%20blockbuster%20direct%20listing)
 
@@ -119,7 +119,7 @@ For more information on how I did my research, please download the [Jypter Notbo
 
 - [Statista](https://www.statista.com/statistics/864738/leading-cryptocurrency-exchanges-traders/)
 
-**Aditinal Questions to Consider:**
+**Additional Questions to Consider:**
 
 1. What has caused some companies to adopt or reject Bitcoin as payment at their private business? 
 2. Why did they make their decision when they did? 
