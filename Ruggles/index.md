@@ -1,4 +1,4 @@
-## Welcome to Ruggles's Bitcoin Page
+## Welcome to Ruggles Bohannons Bitcoin Page
 
 ### Welcome to my page
 
