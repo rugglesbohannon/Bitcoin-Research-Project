@@ -8,7 +8,8 @@ Bitcoin is a cryptocurrency developed in 2009 by Satoshi Nakamoto. Unlike invest
 
 The article about [Bitcoin price](https://www.thebalance.com/who-sets-bitcoin-s-price-391278).In this page, I want to visualize the bitcoin historical price trends. You can also see the correlation between bitcoin and the stock price of large companies that accept bitcoin as payment method, correlation between bitcoin and other currency 
 
-Machine learning (ML) has significant applications in the stock price prediction, and I compare two ML model that predicted the bitcoin price. One is Prophet model developed by Facebook based on [additive model](https://en.wikipedia.org/wiki/Additive_model);another is [Long Short-Term memory (LSTM) neural network model](https://en.wikipedia.org/wiki/Long_short-term_memory). 
+Machine learning (ML) has significant applications in the stock price prediction, and I compare two ML model that predicted the bitcoin price. One is [Prophet model](https://towardsdatascience.com/time-series-forecasting-predicting-stock-prices-using-facebooks-prophet-model-9ee1657132b5) developed by Facebook based on additive model; another is [Long Short-Term memory (LSTM) neural network model](https://towardsdatascience.com/lstm-time-series-forecasting-predicting-stock-prices-using-an-lstm-model-6223e9644a2f). 
+
 PS. The code and models are well developed, and I only compare them. All the sources are available and open online.  
 
 
@@ -22,7 +23,7 @@ All the data are from [Yahoo Finance](https://finance.yahoo.com/), it contains t
 
 The Visualization of all available Bitcoin historical price in USD from Sep 15, 2014 until Today. In the black square is the bitcoin price trends after pandemic. After pandemic began, the bitcoin price is constantly increase and increase curve is became steep after Oct 2020. 
 {% include_relative Visualization/BTC_USD.html %}
-For bitcoin historical data table, click here(trends.md).
+For bitcoin historical data table, click [here](trends.md).
 
 ****
 
@@ -60,4 +61,16 @@ The correlation coefficient between Euro, Chinese yuan, gold, silver, palladium,
 
 **Bitcoin Price Prediction** 
 
-This part will predict the trends of bitcoin price based on other currency and stocks trends. Base on [stock-to flow model](https://medium.com/@100trillionUSD/modeling-bitcoins-value-with-scarcity-91fa0fc03e25)
+I did some research about popular stocks and bitcoin price prediction model. One is base on stock-to flow model. The 'Stock-to-flow' is a number that shows how many years, at the current production rate, are required to achieve the current stock. I didn't including in my visualization, but if you interest in this model, click [here](https://medium.com/@100trillionUSD/modeling-bitcoins-value-with-scarcity-91fa0fc03e25) for more detail information.
+
+Other two are machine learning (ML) models that I apply on bitcoin dataset I have. One is Prophet model developed by Facebook based on [additive model](https://en.wikipedia.org/wiki/Additive_model);another is [Long Short-Term memory (LSTM) neural network model](https://en.wikipedia.org/wiki/Long_short-term_memory). 
+
+The Prophet model’s Github page is [here](https://github.com/facebook/prophet);The LSTM model's page is [here](https://towardsdatascience.com/lstm-time-series-forecasting-predicting-stock-prices-using-an-lstm-model-6223e9644a2f). All codes I used in this visualization also from this page. If you want to build a stock price prediction by you self, all the resources in this page are free and open to public. 
+For those two model, I both use data before Jan 2019 as training, and predicted price from Jan 2019 until now. 
+{% include_relative Visualization/Bitcoin_Pediction_Model.html %} 
+*There are some data are missing and repeated between 2020-04-10 to 2020-12-13 with some unknown reason that I didn't figured out* 
+
+I did do a statistic test to test the validity and accuracy of those two mode, but the line graph shown that the tendency of the prediction model is highly consistent with real bitcoin price. The Prophet prediction give a range of price, but I only present the upper price of the model. [Here](model.md) is the table of the bitcoin price, and model prediction price.
+
+
+ 
