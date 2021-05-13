@@ -33,10 +33,11 @@ Let's take a look at the graphs of bitcoin market cap and the miner rewards
 
 This is the miner rewards graph:
 
+{% include_relative Visualizations/ww-minerrewards.html %}
 
 This is the graph of the total market cap of bitcoin:
 
-{% include_relative Visualizations/ww-btcminercap.htmll %}
+{% include_relative Visualizations/ww-btcminercap.html %}
 
 **Jupyter notebook**
 [This](Bitcoin.ipynb) is my jupyter nootebook.
