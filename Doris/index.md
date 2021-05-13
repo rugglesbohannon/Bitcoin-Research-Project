@@ -36,7 +36,7 @@ For bitcoin historical data table, click [here](trends.md).
 ### Bitcoin Trends Visualization
 
 **Bitcoin Trends with Google Search Trends**
-The Visualization of Bitcoin Trends and Google Search Trends of ‘Bitcoin. 
+The Visualization of Bitcoin Trends and [Google Search Trends](https://trends.google.com/trends/explore?geo=US&q=bitcoin) of ‘Bitcoin. 
 {% include_relative Visualization/BTC_Google.html %}
 
 The trends between bitcoin research trends and bitcoin price flow are very similar in last year. When the bitcoin price increased, the search is increased. Seem like people loss the interest between Feb and March 2021 even the bitcoin price is increasing. But the recently rising interested on bitcoin topic. 
