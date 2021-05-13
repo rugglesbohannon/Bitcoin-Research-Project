@@ -13,4 +13,5 @@ To find the answer to the question, I tried searching for the data and found it 
 
 The following graph shows us the various places where you can spend bitcoin around the world.
 
+{% include_relative Visualizations/ww-bitcoinmapping.html %}
 
