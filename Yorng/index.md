@@ -15,3 +15,10 @@ The following graph shows us the various places where you can spend bitcoin arou
 
 {% include_relative Visualizations/ww-bitcoinmapping.html %}
 
+**Another Visualization**
+
+This visualization shows us the concetration(heatmap) of the areas around the world in which the places you can spend bitcoin are.
+
+{% include_relative Visualizations/ww-bitcoinmappingmonthly.html %}
+
+
