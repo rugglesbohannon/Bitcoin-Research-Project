@@ -17,7 +17,31 @@ The following graph shows us the various places where you can spend bitcoin arou
 
 **Another Visualization**
 
-This visualization shows us the concetration(heatmap) of the areas around the world in which the places you can spend bitcoin are.
+This visualization shows us the concentration (heatmap) of the areas around the world in which the places you can spend bitcoin are.
+
+
+**Comparison of the graphs of Miner Rewards and Bitcoin Market Cap**
+
+Bitcoin is the only company to take the least amount of time to reach the 1 trillion dollar market capital value.
+
+The simple law of supply and demand states that if the supply is high, while demand stays constant, the prices will drop. 
+
+Does this apply to how much bitcoin is mined everyday?
+
+Let's take a look at the graphs of bitcoin market cap and the miner rewards
+
+
+This is the miner rewards graph:
+
+{% include_relative Visualizations/ww-minerrewards.html %}
+
+This is the graph of the total market cap of bitcoin:
+
+{% include_relative Visualizations/ww-btcminercap.htmll %}
+
+**Jupyter notebook**
+[This](Bitcoin.ipynb) is my jupyter nootebook.
+
 
 
 
