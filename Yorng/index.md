@@ -33,7 +33,6 @@ Let's take a look at the graphs of bitcoin market cap and the miner rewards
 
 This is the miner rewards graph:
 
-{% include_relative Visualizations/ww-minerrewards.html %}
 
 This is the graph of the total market cap of bitcoin:
 
