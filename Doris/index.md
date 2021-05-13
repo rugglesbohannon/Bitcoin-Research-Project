@@ -1,17 +1,23 @@
 ## Welcome to Doris's Page
 
-***What Is Bitcoin*** 
-
-Bitcoin is a cryptocurrency developed in 2009 by Satoshi Nakamoto. Unlike investing in traditional currencies, bitcoin is not issued by a central bank or backed by a government. And buying a bitcoin is different than purchasing a stock or bond because bitcoin is not a corporation. Therefore, the monetary policy, inflation rates, and economic growth measurements that typically influence the value of currency do not apply to bitcoin. 
-
 ### About This Page
 
-The article about [Bitcoin price](https://www.thebalance.com/who-sets-bitcoin-s-price-391278).In this page, I want to visualize the bitcoin historical price trends. You can also see the correlation between bitcoin and the stock price of large companies that accept bitcoin as payment method, correlation between bitcoin and other currency 
+***What Is Bitcoin*** 
+
+Bitcoin is a cryptocurrency developed in 2009 by Satoshi Nakamoto. Unlike investing in traditional currencies, bitcoin is not issued by a central bank or backed by a government. And buying a bitcoin is different than purchasing a stock or bond because bitcoin is not a corporation. Therefore, the monetary policy, inflation rates, and economic growth measurements that typically influence the value of currency do not apply to bitcoin.
+
+If you are interesting about the bitcoin price, here is an article discuss the [Bitcoin price](https://www.thebalance.com/who-sets-bitcoin-s-price-391278).
+
+---
+
+***My Project*** 
+In this page, I want to visualize the bitcoin historical price trends. You can also see the correlation between bitcoin and the stock price of large companies that accept bitcoin as payment method, correlation between bitcoin and other currency 
 
 Machine learning (ML) has significant applications in the stock price prediction, and I compare two ML model that predicted the bitcoin price. One is [Prophet model](https://towardsdatascience.com/time-series-forecasting-predicting-stock-prices-using-facebooks-prophet-model-9ee1657132b5) developed by Facebook based on additive model; another is [Long Short-Term memory (LSTM) neural network model](https://towardsdatascience.com/lstm-time-series-forecasting-predicting-stock-prices-using-an-lstm-model-6223e9644a2f). 
 
 PS. The code and models are well developed, and I only compare them. All the sources are available and open online.  
 
+---
 
 **Data Source**
 
