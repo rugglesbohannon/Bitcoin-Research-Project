@@ -80,7 +80,7 @@ Bitcoin is a cryptocurrency that very popular in recent year, and more and more 
 Some of the machine learning model that work well on predict stock price also works on predict bitcoin price.  
 
 ###Jupyter Notebook
-This is the [Jupyter Notebooks] for Bitcoin Trends Visualization and correlation matrix.
-This is the [Jupyter Notebooks] for prediction model. 
+This is the [Jupyter Notebooks](Bitcoin.ipynb) for Bitcoin Trends Visualization and correlation matrix.
+This is the [Jupyter Notebooks](Bitcoin_Prediction_Model.ipynb) for prediction model. 
 
  
