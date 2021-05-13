@@ -58,7 +58,7 @@ For create correlation matrix, you need to import all the stock/currency/mental 
 
 **Correlation Matrix between Tech Companies Stock Prices and Bitcoin Prices**
 
-{% include_relative Visualization/Bitcoin_Currency_Matrix.html %} 
+{% include_relative Visualization/Bitcoin_Stock_Matrix.html %}
 
 None of the correlation is significant (r >.95). But the correlation coefficient between BMW and bitcoin is 0.79; correlation coefficient between Microsoft and bitcoin is 0.8. Their prices are relatively correlate to bitcoin price. Noticeable, correlation is not mean causal relationship between two variables. There are some unknow internal factors that make the stock prices of BMW, Microsoft, and bitcoin price trends is very similar in last year. 
 
@@ -68,7 +68,7 @@ None of the correlation is significant (r >.95). But the correlation coefficient
 
 *The correlation matrix between [EUR](https://finance.yahoo.com/quote/EURUSD=X?p=EURUSD=X&.tsrc=fin-srch), [CNY](https://finance.yahoo.com/quote/CNY=X?p=CNY=X&.tsrc=fin-srch), [gold](https://finance.yahoo.com/quote/GOLD?p=GOLD&.tsrc=fin-srch), [silver](https://finance.yahoo.com/quote/SI=F?p=SI=F&.tsrc=fin-srch), [palladium](https://finance.yahoo.com/quote/PA=F?p=PA=F&.tsrc=fin-srch), and [platinum](https://finance.yahoo.com/quote/PL=F?p=PL=F&.tsrc=fin-srch) monthly prices in last five years*
 
-{% include_relative Visualization/Bitcoin_Stock_Matrix.html %}
+{% include_relative Visualization/Bitcoin_Currency_Matrix.html %} 
 
 The correlation coefficient between Euro, Chinese yuan, gold, silver, palladium, and platinum is very week(r<0.6). The price of bitcoin almost not correlate with other currency and metal price. Because all of prices is measured in USD, so the USD not including in the correlation test. 
 
